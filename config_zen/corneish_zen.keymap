@@ -1,0 +1,11 @@
+#include "../base/layer_names.h"
+#include "../base/kp_mac.h"
+#include "../base/kp_media.h"
+
+/ {
+  chosen {
+    zmk,matrix_transform = &default_transform;
+  };
+};
+
+#include "../base/base.keymap"
