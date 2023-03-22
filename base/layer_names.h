@@ -4,4 +4,3 @@
 #define NUM      3
 #define FUN      4
 #define MEDIA    5
-#define WM       6

@@ -30,24 +30,3 @@
 #define MEH(key) kp LS(LC(LA(key)))
 #define HYP(key) kp LS(LC(LA(LG(key))))
 
-#define YB_MX HYP(X)
-#define YB_MY HYP(Y)
-#define YB_WP HYP(P)
-#define YB_WN HYP(N)
-
-#define YB_FP MEH(P)
-#define YB_FN MEH(N)
-#define YB_FL MEH(H)
-#define YB_FD MEH(J)
-#define YB_FU MEH(K)
-#define YB_FR MEH(L)
-
-#define YB_CC MEH(C)
-#define YB_CF MEH(F)
-#define YB_FS kp LA(F)
-
-#define YB_RL MEH(LEFT)
-#define YB_RD MEH(DOWN)
-#define YB_RU MEH(UP)
-#define YB_RR MEH(RIGHT)
-

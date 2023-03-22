@@ -43,14 +43,14 @@
                         label="Symbol";
 
 // -----------------------------------------------------------------------------------------
-// |      | HAT |  &  |  #  |  ~  |  (  |   |  )  | Ctr | Flt | mx  | my  |      |
-// |      |  `  |  |  |  !  |   ' |  {  |   | wfl | wfd | wfu | wfr |     |      |
-// |      |BSLH |  @  |  $  |  £  |  [  |   | wm  |     |     |     |     |      |
+// |      | HAT |  &  |  #  |  ~  |  (  |   |  )  |     |     |     |     |      |
+// |      |  `  |  |  |  !  |   ' |  {  |   |     |     |     |     |     |      |
+// |      |BSLH |  @  |  $  |  £  |  [  |   |     |     |     |     |     |      |
 //                    |  _  |  -  |  "  |   |     |     |     |
                         bindings = <
-   ____  &kp CARET   &kp AMPS &MC_HSH   &MC_TLD   &TD_Par   /**/    &kp RPAR &YB_CC &YB_CF &YB_MX &YB_MY  ____
-   ____  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &TD_Brc   /**/    &YB_FL   &YB_FD &YB_FU &YB_FR ____    ____
-   ____  &kp BSLH    &MC_AT   &kp DLLR  &MC_PND   &TD_Bkt   /**/    &tog WM  ____   ____   ____   ____    ____
+   ____  &kp CARET   &kp AMPS &MC_HSH   &MC_TLD   &TD_Par   /**/    &kp RPAR ____   ____   ____   ____   ____
+   ____  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &TD_Brc   /**/    ____     ____   ____   ____   ____   ____
+   ____  &kp BSLH    &MC_AT   &kp DLLR  &MC_PND   &TD_Bkt   /**/    ____     ____   ____   ____   ____   ____
                               &kp UNDER &kp MINUS &MC_DQT   /**/    ____     ____   ____
                         >;
                 };
@@ -112,21 +112,6 @@
    ____   ____   ____   ____   ____   ____   /**/    ____   &CPRV  &CVDN  &CVUP  &CNXT  ____
    &BTCLR &BT0   &BT1   &BT2   ____   ____   /**/    ____   ____  ____   ____  ____
                         ____   ____   ____   /**/    &MUTE  &CPP  &STOP
-                        >;
-                };
-
-                wm_layer {
-                        label="WM";
-// -----------------------------------------------------------------------------------------
-// |      |     |     |     |Centr|     |   |WarpP|WarpN|     |     |     |      |
-// |      |     |RSizL|RSizD|RSizU|RSizR|   |FlipX|FlipY|FulSc|     |     |      |
-// |      |     |     |     |Float|     |   |SP L |SP R |     |     |     |      |
-//                    |     |     | TOG |   |Foc P|Foc N|     |
-                        bindings = <
-   ____    ____    ____   ____    &YB_CC  ____     /**/  &YB_WP        &YB_WN        ____    ____    ____   ____
-   ____    ____    &YB_RL &YB_RD  &YB_RU  &YB_RR   /**/  &YB_MX        &YB_MY        &YB_FS  ____    ____   ____
-   ____    ____    ____   ____    &YB_CF  ____     /**/  &kp LC(LEFT)  &kp LC(RIGHT) ____    ____    ____   ____
-                          ____    ____    &tog WM  /**/  &YB_FP        &YB_FN        ____
                         >;
                 };
 
