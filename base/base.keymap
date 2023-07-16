@@ -63,9 +63,9 @@
 // |      |     |     |     |     |     |   |SwWin| Home | End | PgDN|     |      |
 //                    |     |     |     |   |     | Spot |     |
                         bindings = <
-   ____    ____    ____    ____    ____    ____       /**/    ____          &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
+   ____    ____    ____    ____    ____    ____       /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
    ____    &MC_UND &MC_CUT &MC_CPY &MC_PST &TD_Caps   /**/    &kp LEFT      &kp DOWN    &kp UP   &kp RIGHT  ____  ____
-   ____    ____    ____    ____    ____    ____       /**/    &SW_WIN        &MC_HME     &MC_END  &kp PG_DN  ____  ____
+   ____    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
                            ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
                         >;
                 };
@@ -185,14 +185,13 @@
         bindings = <&kp LBKT>, <&kp RBKT>;
     };
 
-/*
     SW_APP: switch_application {
       compatible = "zmk,behavior-tri-state";
       label = "SWITCH_APP";
       #binding-cells = <0>;
       bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
     };
-*/
+
     SW_WIN: switch_window {
       compatible = "zmk,behavior-tri-state";
       label = "SWITCH_WIN";
