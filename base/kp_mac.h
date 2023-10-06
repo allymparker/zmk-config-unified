@@ -9,7 +9,7 @@
 #define MC_ZIN kp LG(PLUS)
 #define MC_ZOT kp LG(MINUS)
 #define MC_PSC kp LS(LG(LC(N4)))
-#define EMOJI  kp LG(LA(N5))
+#define EMOJI  kp GLOBE
 #define MC_CUT kp LG(X)
 #define MC_CPY kp LG(C)
 #define MC_PST hm LSHIFT LG(V)
@@ -29,4 +29,3 @@
 
 #define MEH(key) kp LS(LC(LA(key)))
 #define HYP(key) kp LS(LC(LA(LG(key))))
-
