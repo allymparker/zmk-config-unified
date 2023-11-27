@@ -4,7 +4,7 @@ jobs:
   build:
     strategy:
       matrix:
-        target: [corne, zen]
+        target: [corneroll, corne, zen]
     uses: LOWPROKB/zmk/.github/workflows/build-user-config.yml@corne-ish-zen-v2
     with:
       build_matrix_path: "build_${{ matrix.target }}.yaml"
