@@ -32,11 +32,19 @@
 // |      |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |      |
 //                    | TAB | RET | ESC |   | BSP | SPC  | DEL |
                         bindings = <
-   &CPP   &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
-   &EMOJI &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
+   &EMOJI &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
+   &CPP   &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
    ____   &kp Z   &kp X  &kp C          &kp V        &kp B        /**/  &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
                          &lt MEDIA TAB  &lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
                         >;
+
+                        #ifdef corneroll
+                         sensor-bindings = <
+                                &inc_dec_kp C_VOL_DN C_VOL_UP
+                                &inc_dec_kp PAGE_DOWN PAGE_UP
+                        >;
+                        #endif
+
                 };
 
                 symbol_layer {
@@ -53,6 +61,14 @@
    ____  &kp BSLH    &MC_AT   &kp DLLR  &MC_PND   &TD_Bkt   /**/    &kp RBKT ____   ____   ____   ____   ____
                               &kp UNDER &kp MINUS &MC_DQT   /**/    ____     ____   ____
                         >;
+
+                        #ifdef corneroll
+                         sensor-bindings = <
+                                &inc_dec_kp C_VOL_DN C_VOL_UP
+                                &inc_dec_kp PAGE_DOWN PAGE_UP
+                        >;
+                        #endif
+
                 };
 
                 nav_layer {
@@ -68,6 +84,14 @@
    ____    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
                            ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
                         >;
+
+                        #ifdef corneroll
+                         sensor-bindings = <
+                                &inc_dec_kp C_VOL_DN C_VOL_UP
+                                &inc_dec_kp PAGE_DOWN PAGE_UP
+                        >;
+                        #endif
+
                 };
 
                 num_layer {
@@ -83,6 +107,14 @@
    ____    ____      ____      ____      ____       ____    /**/    &kp MINUS &kp N1  &kp N2  &kp N3  &kp PRCNT ____
                                ____      ____       ____    /**/    &kp EQUAL &kp N0  &kp DOT
                         >;
+
+                        #ifdef corneroll
+                         sensor-bindings = <
+                                &inc_dec_kp C_VOL_DN C_VOL_UP
+                                &inc_dec_kp PAGE_DOWN PAGE_UP
+                        >;
+                        #endif
+
                 };
 
                 fun_layer {
@@ -98,21 +130,36 @@
    ____   &kp F1  &kp F2  &kp F3  &kp F4  ____   /**/   ____    ____      ____      ____     ____     ____
                           ____    ____    ____   /**/   ____    ____      ____
                         >;
+
+                        #ifdef corneroll
+                         sensor-bindings = <
+                                &inc_dec_kp C_VOL_DN C_VOL_UP
+                                &inc_dec_kp PAGE_DOWN PAGE_UP
+                        >;
+                        #endif
+
                 };
 
                 media_layer {
                         label="Media";
 // -----------------------------------------------------------------------------------------
 // | FLASH|     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |  <<  |  ^  |  v  |  >> |      |
+// |      |     |     |     |     |     |   |  <<  |  ^  |  v  |  >> |     |      |
 // |BTCLR | BT0 | BT1 | BT2 |     |     |   |     |      |     |     |     |      |
 //                    |     |     |     |   |Mute | Play | Stop|
                         bindings = <
    &FLASH ____   ____   ____   ____   ____   /**/    ____   ____  ____   ____  ____  ____
-   ____   ____   ____   ____   ____   ____   /**/    ____   &CPRV  &CVDN  &CVUP  &CNXT  ____
+   ____   ____   ____   ____   ____   ____   /**/    &CPRV  &CVDN &CVUP &CNXT  ____ ____
    &BTCLR &BT0   &BT1   &BT2   ____   ____   /**/    ____   ____  ____   ____  ____
                         ____   ____   ____   /**/    &MUTE  &CPP  &STOP
                         >;
+
+                        #ifdef corneroll
+                         sensor-bindings = <
+                                &inc_dec_kp C_VOL_DN C_VOL_UP
+                                &inc_dec_kp PAGE_DOWN PAGE_UP
+                        >;
+                        #endif
                 };
 
                 trans_layer {
