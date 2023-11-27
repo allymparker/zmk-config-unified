@@ -1,10 +1,11 @@
 #include "../base/layer_names.h"
 #include "../base/kp_mac.h"
 #include "../base/kp_media.h"
-#include "../base/base.keymap"
 
 #define corneroll true;
 
 &nice_view_spi {
   cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
 };
+
+#include "../base/base.keymap"
