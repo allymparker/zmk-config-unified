@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - LG(PLUS)
-  - ⏯
+  - Zoom In
+  - ⏯️
   - {t: A, h: Ctrl}
   - {t: S, h: Alt}
   - {t: D, h: Gui}
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - /
-  - LG(MINUS)
+  - Zoom Out
   - {t: ↹, h: media}
   - {t: ⏎, h: num}
   - {t: Esc, h: nav}
@@ -71,7 +71,7 @@ layers:
   - \
   - '@'
   - $
-  - '#'
+  - £
   - '&TD_Bkt'
   - ']'
   - {t: ▽, type: trans}
@@ -92,18 +92,18 @@ layers:
   - F15
   - F16
   - {t: ▽, type: trans}
-  - '&SW_APP'
-  - LA(LEFT)
-  - LA(RIGHT)
+  - App Next
+  - Word Left
+  - Word Right
   - Page Up
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LG(Z)
-  - LG(X)
-  - LG(C)
-  - {t: LG(V), h: LSHIFT}
-  - '&TD_Caps'
+  - Undo
+  - Cut
+  - Copy
+  - {t: Paste, h: LSHIFT}
+  - Caps Wrd
   - ←
   - ↓
   - ↑
@@ -116,16 +116,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&SW_WIN'
-  - LG(LEFT)
-  - LG(RIGHT)
+  - Win Next
+  - Home
+  - End
   - Page Down
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - LA(BSPC)
+  - Delete Word
   - LG(SPC)
   - {t: ▽, type: trans}
   num:
@@ -255,7 +255,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
-  - ⏯
+  - ⏯️
   - STOP
   trans:
   - {t: ▽, type: trans}
