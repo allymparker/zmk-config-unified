@@ -1,5 +1,6 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
+  trans_legend: ""
   raw_binding_map:
     '&sys_reset': Reset
     '&bootloader': Boot
@@ -18,7 +19,7 @@ parse_config:
     '&kp LA(RIGHT)': Word Right
     '&kp LG(LEFT)': Home
     '&kp LG(RIGHT)': End
-    '&kp LG(SPACE)': Spotlight
+    '&kp LG(SPC)': Sptlight
     '&kp LA(BSPC)': Delete Word
 
     '&bt BT_SEL 0': BT 1
