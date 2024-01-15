@@ -21,4 +21,4 @@ jobs:
       config_path: "keymap-drawer/config.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer" # path to save produced SVG and keymap YAML files
       # amend_commit: true
-      draw_args: "corneish_zen:'--ghost-keys 20 24 25 29 30 35' corneroll:'-k corne_rotated -l LAYOUT_split_3x5_3'"
+      draw_args: "corneish_zen:'--ghost-keys 20 24 25 29 30 35' corneroll:'-k corne_rotated -l LAYOUT_split_3x6_3'"
