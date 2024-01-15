@@ -1,0 +1,260 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  base:
+  - GLOBE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Zoom In
+  - ⏯️
+  - {t: A, h: Ctrl}
+  - {t: S, h: Alt}
+  - {t: D, h: Gui}
+  - {t: F, h: LSHIFT}
+  - G
+  - H
+  - {t: J, h: LSHIFT}
+  - {t: K, h: Gui}
+  - {t: L, h: Alt}
+  - {t: ;, h: Ctrl}
+  - Print Scr
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - Zoom Out
+  - {t: ↹, h: media}
+  - {t: ⏎, h: num}
+  - {t: Esc, h: nav}
+  - {t: ⌫, h: fun}
+  - {t: SPC, h: symbol}
+  - ⌦
+  symbol:
+  - ''
+  - ^
+  - '&'
+  - LA(3)
+  - '~'
+  - (
+  - )
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '`'
+  - '|'
+  - '!'
+  - ''''
+  - '{'
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - \
+  - '@'
+  - $
+  - £
+  - '['
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - _
+  - '-'
+  - '"'
+  - ''
+  - {type: held}
+  - ''
+  nav:
+  - ''
+  - ''
+  - ''
+  - F15
+  - F16
+  - ''
+  - App Next
+  - Word Left
+  - Word Right
+  - Page Up
+  - ''
+  - ''
+  - ''
+  - Undo
+  - Cut
+  - Copy
+  - {t: Paste, h: LSHIFT}
+  - Caps Wrd
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Win Next
+  - Home
+  - End
+  - Page Down
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Delete Word
+  - Sptlight
+  - ''
+  num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - Ctrl
+  - Alt
+  - Gui
+  - Shift
+  - ''
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - /
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - '%'
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - '='
+  - '0'
+  - .
+  fun:
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - ''
+  - ''
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
+  - ''
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  media:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ⏮️
+  - Vol Down
+  - Vol Up
+  - ⏭️
+  - ''
+  - ''
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - MUTE
+  - ⏯️
+  - STOP
