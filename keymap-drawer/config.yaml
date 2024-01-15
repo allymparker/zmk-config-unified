@@ -3,42 +3,29 @@ parse_config:
   raw_binding_map:
     '&sys_reset': Reset
     '&bootloader': Boot
-    '&swapper': Win Next
-    '&caps_word': Caps Wrd
+    '&SW_APP': App Next
+    '&SW_WIN': Win Next
+    '&TD_Caps': Caps Wrd
 
-    '&kp LC(LG(LEFT))': Desk Left
-    '&kp LC(LG(RIGHT))': Desk Right
-    '&kp LC(TAB)': Tab Right
-    '&kp LC(LS(TAB))': Tab Left
-    '&kp LA(F4)': Win Close
-    '&kp LC(F4)': Tab Close
-    '&kp LS(TAB)': Win Prev
-    # '&kp LS(INS)': Paste
-
-    '&out OUT_USB': Out USB
-    '&out OUT_BLE': Out BLE
+    '&kp LG(PLUS)': Zoom In
+    '&kp LG(MINUS)': Zoom Out
+    '&kp LS(LG(LC(4)))': Print Scr
+    '&kp LG(Z)': Undo
+    '&kp LG(C)': Copy
+    '&kp LG(X)': Cut
+    '&kp LG(V)': Paste
+    '&kp LA(LEFT)': Word Left
+    '&kp LA(RIGHT)': Word Right
+    '&kp LG(LEFT)': Home
+    '&kp LG(RIGHT)': End
+    '&kp LG(SPACE)': Spotlight
+    '&kp LA(BSPC)': Delete Word
 
     '&bt BT_SEL 0': BT 1
     '&bt BT_SEL 1': BT 2
     '&bt BT_SEL 2': BT 3
     '&bt BT_SEL 3': BT 4
     '&bt BT_SEL 4': BT 5
-
-    '&mmv MOVE_UP': M↑
-    '&mmv MOVE_DOWN': M↓
-    '&mmv MOVE_LEFT': M←
-    '&mmv MOVE_RIGHT': M→
-
-    '&msc SCRL_UP': MW↑
-    '&msc SCRL_DOWN': MW↓
-    '&msc SCRL_LEFT': MW←
-    '&msc SCRL_RIGHT': MW→
-
-    '&mkp LCLK': Left Click
-    '&mkp RCLK': Right Click
-    '&mkp MCLK': Middle Click
-    '&mkp MB4': Back Click
-    '&mkp MB5': Forward Click
 
   zmk_combos:
     combo_tab:    {align: top, o: 0.15}
@@ -48,10 +35,8 @@ parse_config:
     combo_btclr:  {align: bottom}
 
   zmk_keycode_map:
-    # custom mappings
     C_VOL_UP: Vol Up
     C_VOL_DN: Vol Down
-    C_AL_CALC: Calc
     C_PP: Play Pause
 
     LCTRL: Ctrl
@@ -83,7 +68,7 @@ parse_config:
     LEFT: ←
     RIGHT: →
 
-    C_PP: ⏯
+    C_PP: ⏯️
     C_NEXT: ⏭️
     C_PREV: ⏮️
 
@@ -113,7 +98,7 @@ parse_config:
     GRAVE: '`'
     GREATER_THAN: '>'
     GT: '>'
-    HASH: '#'
+    HASH: '£'
     LBKT: '['
     LBRC: '{'
     LEFT_BRACE: '{'

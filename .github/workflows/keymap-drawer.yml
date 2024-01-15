@@ -1,8 +1,8 @@
 # Example for using the keymap-drawer ZMK user config workflow
 name: Draw ZMK keymaps
 on:
-  workflow_dispatch: # can be triggered manually
-  push: # automatically run on changes to following paths
+  workflow_dispatch:
+  push:
     paths:
       - "base/*"
       - "config_*/*.keymap"
@@ -20,4 +20,4 @@ jobs:
       config_path: "keymap-drawer/config.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer" # path to save produced SVG and keymap YAML files
       # amend_commit: true
-      draw_args: "corneish_zen:'--ghost-keys 20 24 25 29 30 35'"
+      draw_args: "corneish_zen:'--ghost-keys 20 24 25 29 30 35' corneroll:'-l LAYOUT_split_3x6_3'"
