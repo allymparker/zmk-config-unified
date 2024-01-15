@@ -7,7 +7,7 @@ on:
       - "base/*"
       - "config_*/*.keymap"
       - "config_*/*.dtsi"
-      - "keymap_drawer/config.yaml"
+      - "keymap-drawer/config.yaml"
       # - 'config/boards/*/*/*.keymap'
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
       contents: write # allow workflow to commit to the repo
     with:
       keymap_patterns: "config_*/*.keymap" # path to the keymaps to parse
-      config_path: "keymap_drawer/config.yaml" # config file, ignored if not exists
+      config_path: "keymap-drawer/config.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer" # path to save produced SVG and keymap YAML files
-      amend_commit: true
+      # amend_commit: true
       draw_args: "corneish_zen:'--ghost-keys 20 24 25 29 30 35'"
