@@ -13,17 +13,17 @@ layers:
   - O
   - P
   - LG(PLUS)
-  - PP
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: D, h: LGUI}
+  - ⏯
+  - {t: A, h: Ctrl}
+  - {t: S, h: Alt}
+  - {t: D, h: Gui}
   - {t: F, h: LSHIFT}
   - G
   - H
   - {t: J, h: LSHIFT}
-  - {t: K, h: LGUI}
-  - {t: L, h: LALT}
-  - {t: ;, h: LCTRL}
+  - {t: K, h: Gui}
+  - {t: L, h: Alt}
+  - {t: ;, h: Ctrl}
   - LS(LG(LC(4)))
   - {t: ▽, type: trans}
   - Z
@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - LG(MINUS)
-  - {t: TAB, h: media}
-  - {t: RET, h: num}
-  - {t: ESC, h: nav}
-  - {t: BSPC, h: fun}
+  - {t: ↹, h: media}
+  - {t: ⏎, h: num}
+  - {t: Esc, h: nav}
+  - {t: ⌫, h: fun}
   - {t: SPC, h: symbol}
-  - DEL
+  - ⌦
   symbol:
   - {t: ▽, type: trans}
   - ^
@@ -96,7 +96,7 @@ layers:
   - '&SW_APP'
   - LA(LEFT)
   - LA(RIGHT)
-  - PG UP
+  - Page Up
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,10 +105,10 @@ layers:
   - LG(C)
   - {t: LG(V), h: LSHIFT}
   - '&TD_Caps'
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - ←
+  - ↓
+  - ↑
+  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,7 +120,7 @@ layers:
   - '&SW_WIN'
   - LG(LEFT)
   - LG(RIGHT)
-  - PG DN
+  - Page Down
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,10 +143,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
-  - LALT
-  - LGUI
-  - LSHFT
+  - Ctrl
+  - Alt
+  - Gui
+  - Shift
   - {t: ▽, type: trans}
   - +
   - '4'
@@ -192,10 +192,10 @@ layers:
   - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
-  - LCTRL
-  - LALT
-  - LGUI
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   media:
-  - '&bootloader'
+  - Boot
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -234,16 +234,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PREV
-  - VOL DN
-  - VOL UP
-  - NEXT
+  - ⏮️
+  - Vol Down
+  - Vol Up
+  - ⏭️
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
+  - BT 1
+  - BT 2
+  - BT 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -255,7 +255,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - MUTE
-  - PP
+  - ⏯
   - STOP
   trans:
   - {t: ▽, type: trans}
