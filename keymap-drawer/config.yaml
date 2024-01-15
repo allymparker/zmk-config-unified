@@ -10,11 +10,12 @@ parse_config:
 
     '&kp LG(PLUS)': Zoom In
     '&kp LG(MINUS)': Zoom Out
-    '&kp LS(LG(LC(4)))': Print Scr
+    '&kp LS(LG(LC(N4)))': Print Scr
     '&kp LG(Z)': Undo
     '&kp LG(C)': Copy
     '&kp LG(X)': Cut
     '&kp LG(V)': Paste
+    '&kp LA(N4)': "#"
     '&kp LA(LEFT)': Word Left
     '&kp LA(RIGHT)': Word Right
     '&kp LG(LEFT)': Home
