@@ -24,7 +24,7 @@ layers:
   - {t: K, h: Gui}
   - {t: L, h: Alt}
   - {t: ;, h: Ctrl}
-  - LS(LG(LC(4)))
+  - Print Scr
   - ''
   - Z
   - X
