@@ -6,10 +6,8 @@ on:
     paths:
       - "base/*"
       - "config_*/*.keymap"
-      - "config_*/*.dtsi"
       - "keymap-drawer/config.yaml"
       - ".github/workflows/keymap-drawer.yml"
-      # - 'config/boards/*/*/*.keymap'
 
 jobs:
   draw:
@@ -17,8 +15,7 @@ jobs:
     permissions:
       contents: write # allow workflow to commit to the repo
     with:
-      keymap_patterns: "config_*/*.keymap" # path to the keymaps to parse
-      config_path: "keymap-drawer/config.yaml" # config file, ignored if not exists
-      output_folder: "keymap-drawer" # path to save produced SVG and keymap YAML files
-      # amend_commit: true
-      draw_args: "corneish_zen:'--ghost-keys 20 24 25 29 30 35' corneroll:'-k corne_rotated -l LAYOUT_split_3x6_3'"
+      keymap_patterns: "config_*/*.keymap"
+      config_path: "keymap-drawer/config.yaml"
+      output_folder: "keymap-drawer"
+      draw_args: "corneroll:'-k corne_rotated -l LAYOUT_split_3x6_3'"
