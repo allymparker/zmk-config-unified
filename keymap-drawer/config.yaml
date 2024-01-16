@@ -42,15 +42,26 @@ parse_config:
     C_VOL_DN: Vol Down
     C_PP: Play Pause
 
-    LCTRL: Ctrl
-    RCTRL: Ctrl
-    LALT: Alt
-    RALT: Alt
-    LGUI: GUI
-    RGUI: GUI
-    LSHFT: Shift
-    LSHIFT: Shift
-    RSHFT: Shift
+    # LCTRL: Ctrl
+    # RCTRL: Ctrl
+    # LALT: Alt
+    # RALT: Alt
+    # LGUI: GUI
+    # RGUI: GUI
+    # LSHFT: Shift
+    # LSHIFT: Shift
+    # RSHFT: Shift
+
+    LCTRL: $$mdi:apple-keyboard-control$$
+    LALT: $$mdi:apple-keyboard-option$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    LGUI: $$mdi:apple-keyboard-command$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    RALT: $$mdi:apple-keyboard-option$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    RGUI: $$mdi:apple-keyboard-command$$
     ESC: Esc
     SPACE: ␣
     BSPC: ⌫
