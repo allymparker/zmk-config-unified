@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - "base/*"
-      - "config_*/*.keymap"
+      - "config_/*.keymap"
       - "keymap-drawer/config.yaml"
       - ".github/workflows/keymap-drawer.yml"
 
@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: write # allow workflow to commit to the repo
     with:
-      keymap_patterns: "config_*/*.keymap"
+      keymap_patterns: "config_corne/*.keymap"
       config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
       draw_args: "corneroll:'-k corne_rotated -l LAYOUT_split_3x6_3'"
