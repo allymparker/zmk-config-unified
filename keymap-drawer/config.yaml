@@ -38,9 +38,8 @@ parse_config:
     combo_btclr:  {align: bottom}
 
   zmk_keycode_map:
-    C_VOL_UP: $$tablar:volume$$
-    C_VOL_DN: $$tablar:volume-2$$
-    C_PP: Play Pause
+    C_VOL_UP: $$tabler:volume$$
+    C_VOL_DN: $$tabler:volume-2$$
     LCTRL: $$mdi:apple-keyboard-control$$
     LALT: $$mdi:apple-keyboard-option$$
     LSHIFT: $$mdi:apple-keyboard-shift$$
@@ -73,8 +72,8 @@ parse_config:
     RIGHT: →
 
     C_PP: $$mdi:play-pause$$
-    C_NEXT: $$tablar:player-track-next-filled$$
-    C_PREV: $$tablar:player-track-prev-filled$$
+    C_NEXT: $$tabler:player-track-next-filled$$
+    C_PREV: $$tabler:player-track-prev-filled$$
 
     # defaults
     AMPERSAND: '&'
