@@ -1,0 +1,260 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  base:
+  - $$tabler:world$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$tabler:zoom-in$$
+  - $$mdi:play-pause$$
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$'}
+  - $$tabler:screenshot$$
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$tabler:zoom-out$$
+  - {t: ↹, h: media}
+  - {t: ⏎, h: num}
+  - {t: esc, h: nav}
+  - {t: ⌫, h: fun}
+  - {t: ␣, h: symbol}
+  - ⌦
+  symbol:
+  - ''
+  - ^
+  - '&'
+  - '#'
+  - '~'
+  - (
+  - )
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '`'
+  - '|'
+  - '!'
+  - ''''
+  - '{'
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - \
+  - '@'
+  - $
+  - £
+  - '['
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - _
+  - '-'
+  - '"'
+  - ''
+  - {type: held}
+  - ''
+  nav:
+  - ''
+  - ''
+  - ''
+  - F15
+  - F16
+  - ''
+  - App Next
+  - Word Left
+  - Word Right
+  - Page Up
+  - ''
+  - ''
+  - ''
+  - $$tabler:arrow-back-up$$
+  - $$tabler:cut$$
+  - $$tabler:copy$$
+  - {t: '$$tabler:clipboard$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - Caps Wrd
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Win Next
+  - Home
+  - End
+  - Page Down
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Delete Word
+  - $$tabler:search$$
+  - ''
+  num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - ''
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - /
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - '%'
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - '='
+  - '0'
+  - .
+  fun:
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - ''
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  media:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$tabler:player-track-prev-filled$$
+  - $$tabler:volume-2$$
+  - $$tabler:volume$$
+  - $$tabler:player-track-next-filled$$
+  - ''
+  - ''
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - $$tabler:volume-3$$
+  - $$mdi:play-pause$$
+  - $$tabler:player-stop-filled$$
