@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   base:
-  - GLOBE
+  - $$tabler:world$$
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - Zoom In
+  - $$tabler:zoom-in$$
   - $$mdi:play-pause$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-command$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$'}
-  - Print Scr
+  - $$tabler:screenshot$$
   - ''
   - Z
   - X
@@ -36,12 +36,12 @@ layers:
   - ','
   - .
   - /
-  - Zoom Out
+  - $$tabler:zoom-out$$
   - {t: ↹, h: media}
   - {t: ⏎, h: num}
-  - {t: Esc, h: nav}
+  - {t: esc, h: nav}
   - {t: ⌫, h: fun}
-  - {t: SPC, h: symbol}
+  - {t: ␣, h: symbol}
   - ⌦
   symbol:
   - ''
@@ -100,10 +100,10 @@ layers:
   - ''
   - ''
   - ''
-  - Undo
-  - Cut
-  - Copy
-  - {t: Paste, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$tabler:arrow-back-up$$
+  - $$tabler:cut$$
+  - $$tabler:copy$$
+  - {t: '$$tabler:paste$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Caps Wrd
   - ←
   - ↓
@@ -127,7 +127,7 @@ layers:
   - ''
   - {type: held}
   - Delete Word
-  - Spot light
+  - $$tabler:search$$
   - ''
   num:
   - ''
