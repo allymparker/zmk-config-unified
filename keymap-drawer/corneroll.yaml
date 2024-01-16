@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - Zoom In
-  - $$mdi:mdi-play-pause$$
+  - $$mdi:play-pause$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -255,5 +255,5 @@ layers:
   - ''
   - ''
   - MUTE
-  - $$mdi:mdi-play-pause$$
+  - $$mdi:play-pause$$
   - STOP
