@@ -102,7 +102,7 @@ layers:
   - $$tabler:arrow-back-up$$
   - $$tabler:cut$$
   - $$tabler:copy$$
-  - {t: '$$tabler:paste$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$tabler:clipboard$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Caps Wrd
   - ←
   - ↓
