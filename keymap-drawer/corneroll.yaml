@@ -233,10 +233,10 @@ layers:
   - ''
   - ''
   - ''
-  - $$tablar:player-track-prev-filled$$
-  - $$tablar:volume-2$$
-  - $$tablar:volume$$
-  - $$tablar:player-track-next-filled$$
+  - $$tabler:player-track-prev-filled$$
+  - $$tabler:volume-2$$
+  - $$tabler:volume$$
+  - $$tabler:player-track-next-filled$$
   - ''
   - ''
   - BT CLR
