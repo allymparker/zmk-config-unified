@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - Zoom In
-  - ⏯️
+  - $$mdi:mdi-play-pause$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -233,10 +233,10 @@ layers:
   - ''
   - ''
   - ''
-  - ⏮️
-  - Vol Down
-  - Vol Up
-  - ⏭️
+  - $$tablar.player-track-prev-filled$$
+  - $$tablar:volume-2$$
+  - $$tablar:volume$$
+  - $$tablar.player-track-next-filled$$
   - ''
   - ''
   - BT CLR
@@ -255,5 +255,5 @@ layers:
   - ''
   - ''
   - MUTE
-  - ⏯️
+  - $$mdi:mdi-play-pause$$
   - STOP
