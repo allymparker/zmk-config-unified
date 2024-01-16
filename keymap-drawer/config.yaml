@@ -72,7 +72,7 @@ parse_config:
     LEFT: ←
     RIGHT: →
 
-    C_PP: $$mdi:mdi-play-pause$$
+    C_PP: $$mdi:play-pause$$
     C_NEXT: $$tablar.player-track-next-filled$$
     C_PREV: $$tablar.player-track-prev-filled$$
 
