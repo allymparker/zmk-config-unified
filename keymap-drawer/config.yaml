@@ -15,12 +15,12 @@ parse_config:
     '&kp LG(C)': Copy
     '&kp LG(X)': Cut
     '&kp LG(V)': Paste
-    '&kp LA(N4)': "#"
+    '&kp LA(N3)': "#"
     '&kp LA(LEFT)': Word Left
     '&kp LA(RIGHT)': Word Right
     '&kp LG(LEFT)': Home
     '&kp LG(RIGHT)': End
-    '&kp LG(SPC)': Sptlight
+    '&kp LG(SPC)': Spot light
     '&kp LA(BSPC)': Delete Word
 
     '&bt BT_SEL 0': BT 1
@@ -46,9 +46,10 @@ parse_config:
     RCTRL: Ctrl
     LALT: Alt
     RALT: Alt
-    LGUI: Gui
-    RGUI: Gui
+    LGUI: GUI
+    RGUI: GUI
     LSHFT: Shift
+    LSHIFT: Shift
     RSHFT: Shift
     ESC: Esc
     SPACE: ␣
