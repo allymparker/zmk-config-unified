@@ -73,8 +73,8 @@ parse_config:
     RIGHT: →
 
     C_PP: $$mdi:play-pause$$
-    C_NEXT: $$tablar.player-track-next-filled$$
-    C_PREV: $$tablar.player-track-prev-filled$$
+    C_NEXT: $$tablar:player-track-next-filled$$
+    C_PREV: $$tablar:player-track-prev-filled$$
 
     # defaults
     AMPERSAND: '&'
