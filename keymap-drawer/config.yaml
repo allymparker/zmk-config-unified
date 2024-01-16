@@ -14,7 +14,7 @@ parse_config:
     '&kp LG(Z)': $$tabler:arrow-back-up$$
     '&kp LG(C)': $$tabler:copy$$
     '&kp LG(X)': $$tabler:cut$$
-    '&kp LG(V)': $$tabler:paste$$
+    '&kp LG(V)': $$tabler:clipboard$$
     '&kp LA(N3)': "#"
     '&kp LA(LEFT)': Word Left
     '&kp LA(RIGHT)': Word Right
