@@ -141,3 +141,45 @@ parse_config:
     TILDE2: '~'
     UNDER: _
     UNDERSCORE: _
+draw_config:
+
+  # key dimensions, non-ortho layouts use key_h for width as well
+  # key_w: 100 # This doesn't seem to do anything? 🤔
+  key_h: 80
+
+  # keys border radius
+  key_rx: 4
+  key_ry: 4
+
+  # key labels line spacing for multi-line labels
+  line_spacing: 1
+
+  # combo box dimensions
+  combo_w: 36
+  combo_h: 36
+
+  # padding from the edge of cap to top and bottom legends
+  small_pad: 4
+
+  # Padding between keys
+  inner_pad_w: 1.5
+  inner_pad_h: 1.5
+
+  # padding between layers
+  outer_pad_w: 0
+  outer_pad_h: 0
+
+  # gap between two halves for ortho layout generator
+  # split_gap: 20 # This doesn't seem to have any effect either? 🤔
+
+  # as it reads on the tin can, this comment is here for consistency
+  append_colon_to_layer_header: false
+
+  # shrink font size for legends wider than this many chars, set to 0 to disable
+  # ideal value depends on the font size defined in svg_style and width of the boxes
+  shrink_wide_legends: 5
+
+  # Glyphs dimensions
+  glyph_tap_size: 26
+  glyph_hold_size: 18
+  glyph_shifted_size: 18
