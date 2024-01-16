@@ -13,16 +13,16 @@ layers:
   - P
   - Zoom In
   - ⏯️
-  - {t: A, h: Ctrl}
-  - {t: S, h: Alt}
-  - {t: D, h: Gui}
-  - {t: F, h: LSHIFT}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: LSHIFT}
-  - {t: K, h: Gui}
-  - {t: L, h: Alt}
-  - {t: ;, h: Ctrl}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$'}
   - Print Scr
   - ''
   - Z
@@ -46,7 +46,7 @@ layers:
   - ''
   - ^
   - '&'
-  - LA(3)
+  - '#'
   - '~'
   - (
   - )
@@ -102,7 +102,7 @@ layers:
   - Undo
   - Cut
   - Copy
-  - {t: Paste, h: LSHIFT}
+  - {t: Paste, h: '$$mdi:apple-keyboard-shift$$'}
   - Caps Wrd
   - ←
   - ↓
@@ -126,7 +126,7 @@ layers:
   - ''
   - {type: held}
   - Delete Word
-  - Sptlight
+  - Spot light
   - ''
   num:
   - ''
@@ -142,10 +142,10 @@ layers:
   - ''
   - ''
   - ''
-  - Ctrl
-  - Alt
-  - Gui
-  - Shift
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - ''
   - +
   - '4'
@@ -191,10 +191,10 @@ layers:
   - F8
   - ''
   - ''
-  - Shift
-  - Ctrl
-  - Alt
-  - Gui
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - ''
   - ''
   - F1
