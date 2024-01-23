@@ -36,7 +36,7 @@
    &EMOJI &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
    &CPP   &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
    ____   &kp Z   &kp X  &kp C          &kp V        &kp B        /**/  &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
-                         &lt MEDIA TAB  &lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
+                         &lt MEDIA TAB  &sticky_lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
                         >;
 
                         #ifdef corneroll
@@ -106,7 +106,7 @@
    ____    ____      ____      ____      ____       ____    /**/    &kp STAR  &kp N7  &kp N8  &kp N9  ____      ____
    ____    &kp LCTRL &kp LALT  &kp LGUI  &kp LSHFT  ____    /**/    &kp PLUS  &kp N4  &kp N5  &kp N6  &kp FSLH  ____
    ____    ____      ____      ____      ____       ____    /**/    &kp MINUS &kp N1  &kp N2  &kp N3  &kp PRCNT ____
-                               ____      ____       ____    /**/    &kp EQUAL &kp N0  &kp DOT
+                               ____      &tog NUM   ____    /**/    &kp EQUAL &kp N0  &kp DOT
                         >;
 
                         #ifdef corneroll
@@ -247,5 +247,12 @@
       bindings = <&kt LGUI>, <&kp GRAVE>, <&kt LGUI>;
     };
 
+        sticky_lt: behavior_sticky_lt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&tog>, <&kp>;
+        };
   };
 };
