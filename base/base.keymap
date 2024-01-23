@@ -249,6 +249,7 @@
 
         sticky_lt: behavior_sticky_lt {
             compatible = "zmk,behavior-hold-tap";
+        label = "STICKY_LT";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
