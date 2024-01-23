@@ -20,6 +20,9 @@
   };
 };
 
+&caps_word {
+    continue-list = <UNDERSCORE MINUS BSPC>;
+};
 
 / {
         keymap {
@@ -194,43 +197,12 @@
       bindings = <&kp>, <&kp>;
     };
 
-    caps_word: behavior_caps_word {
-      compatible = "zmk,behavior-caps-word";
-      label = "CAPS_WORD";
-      #binding-cells = <0>;
-      continue-list = <UNDERSCORE MINUS BSPC>;
-    };
-
     TD_Caps: td_caps {
         compatible = "zmk,behavior-tap-dance";
         label = "TD_CAPS";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&caps_word>, <&kp CAPS>;
-    };
-
-    TD_Par: td_paren {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TD_PAREN";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp LPAR>, <&kp RPAR>;
-    };
-
-    TD_Brc: td_brace {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TD_BRACE";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp LBRC>, <&kp RBRC>;
-    };
-
-    TD_Bkt: td_bracket {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TD_BRACKET";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp LBKT>, <&kp RBKT>;
     };
 
     SW_APP: switch_application {
