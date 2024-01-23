@@ -167,7 +167,7 @@ layers:
   - '%'
   - ''
   - ''
-  - {type: held}
+  - {t: num, h: toggle}
   - ''
   - '='
   - '0'
