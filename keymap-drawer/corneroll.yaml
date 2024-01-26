@@ -1,5 +1,5 @@
 layers:
-  base:
+  Base:
   - $$tabler:world$$
   - Q
   - W
@@ -166,7 +166,7 @@ layers:
   - '%'
   - ''
   - ''
-  - {type: held}
+  - {t: num, h: toggle}
   - ''
   - '='
   - '0'
