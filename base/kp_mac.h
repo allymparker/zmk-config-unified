@@ -1,5 +1,5 @@
 #define MC_PND kp HASH
-#define MC_AT  kp AT
+#define MC_AT kp AT
 #define MC_DQT kp DQT
 #define MC_HSH kp LA(N3)
 #define MC_PPE kp PIPE
@@ -9,7 +9,7 @@
 #define MC_ZIN kp LG(PLUS)
 #define MC_ZOT kp LG(MINUS)
 #define MC_PSC kp LS(LG(LC(N4)))
-#define EMOJI  kp GLOBE
+#define EMOJI kp GLOBE
 #define MC_CUT kp LG(X)
 #define MC_CPY kp LG(C)
 #define MC_PST hm LSHIFT LG(V)
@@ -17,15 +17,14 @@
 #define MC_HME kp LG(LEFT)
 #define MC_END kp LG(RIGHT)
 
-#define MC_A hm LCTRL A
-#define MC_S hm LALT S
-#define MC_D hm LGUI D
-#define MC_F hm LSHIFT F
-#define MC_J hm LSHIFT J
-#define MC_K hm LGUI K
-#define MC_L hm LALT L
-#define MC_SEMI hm LCTRL SEMI
-
+#define MC_A hm_l LCTRL A
+#define MC_S hm_l LALT S
+#define MC_D hm_l LGUI D
+#define MC_F hm_l LSHIFT F
+#define MC_J hm_r LSHIFT J
+#define MC_K hm_r LGUI K
+#define MC_L hm_r LALT L
+#define MC_SEMI hm_r LCTRL SEMI
 
 #define MEH(key) kp LS(LC(LA(key)))
 #define HYP(key) kp LS(LC(LA(LG(key))))
