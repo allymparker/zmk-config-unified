@@ -30,7 +30,7 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - name: Initialize workspace (west init)
-        run: west init -l config
+        run: west init -l config/config_corneroll
       - name: Update modules (west update)
         run: west update
       - name: Export zephyr CMake package (west zephyr-export)
