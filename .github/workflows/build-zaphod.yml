@@ -32,9 +32,7 @@ jobs:
       - name: Initialize workspace (west init)
         run: west init -l config/config_corneroll
       - name: Update modules (west update)
-        run: /
-          cd config
-          west update
+        run: cd config && west update
       - name: Export zephyr CMake package (west zephyr-export)
         run: west zephyr-export
       - name: List modules (west list)
