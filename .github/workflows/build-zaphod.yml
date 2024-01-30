@@ -32,13 +32,15 @@ jobs:
       - name: Initialize workspace (west init)
         run: west init -l config/config_corneroll
       - name: Update modules (west update)
-        run: west update
+        run: /
+          cd config
+          west update
       - name: Export zephyr CMake package (west zephyr-export)
         run: west zephyr-export
       - name: List modules (west list)
         run: west list
       - name: Build Corneroll (west build)
-        run: west build -s zmk/app -b nice_nano -d build/corneroll -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config_corneroll" -DSHIELD="corneroll_left nice_view_adapter nice_view"
+        run: west build -s zmk/app -b nice_nano -d build/corneroll -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config/config_corneroll" -DSHIELD="corneroll_left nice_view_adapter nice_view"
       - name: Corneroll .config
         if: ${{ always() }}
         run: cat -n build/corneroll/zephyr/.config
