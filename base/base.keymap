@@ -43,7 +43,7 @@
    &EMOJI &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
    &CPP   &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
    ____   &kp Z   &kp X  &kp C          &kp V        &kp B        /**/  &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
-                         &lt MEDIA TAB  &sticky_lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
+                         &lt MEDIA TAB  &lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
                         >;
 
                         #ifdef corneroll
