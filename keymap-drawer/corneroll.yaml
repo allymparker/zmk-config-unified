@@ -166,7 +166,7 @@ layers:
   - '%'
   - ''
   - ''
-  - {t: num, h: toggle}
+  - {t: num, h: toggle, type: held}
   - {t: num, h: toggle}
   - '='
   - '0'

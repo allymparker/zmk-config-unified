@@ -1126,10 +1126,10 @@ path.combo {
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 </g>
-<g transform="translate(408, 304) rotate(15.0)" class="key keypos-37">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">num</text>
-<text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<g transform="translate(408, 304) rotate(15.0)" class="key held keypos-37">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
+<text x="0" y="0" class="key held tap">num</text>
+<text x="0" y="34" class="key held hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
