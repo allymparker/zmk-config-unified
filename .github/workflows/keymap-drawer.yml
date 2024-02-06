@@ -3,6 +3,8 @@ name: Draw ZMK keymaps
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - "base/*"
       - "config_/*.keymap"

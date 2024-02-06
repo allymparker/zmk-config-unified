@@ -12,7 +12,7 @@
 #define EMOJI kp GLOBE
 #define MC_CUT kp LG(X)
 #define MC_CPY kp LG(C)
-#define MC_PST hm LSHIFT LG(V)
+#define MC_PST kp LG(V)
 #define MC_UND kp LG(Z)
 #define MC_HME kp LG(LEFT)
 #define MC_END kp LG(RIGHT)
