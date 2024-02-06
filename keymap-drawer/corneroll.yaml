@@ -102,7 +102,7 @@ layers:
   - $$tabler:arrow-back-up$$
   - $$tabler:cut$$
   - $$tabler:copy$$
-  - '&hm LSHIFT LG(V)'
+  - $$tabler:clipboard$$
   - Caps Wrd
   - ←
   - ↓
@@ -221,7 +221,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Boot
   - ''
   - ''
   - ''
@@ -257,3 +257,6 @@ layers:
   - $$tabler:volume-3$$
   - $$mdi:play-pause$$
   - $$tabler:player-stop-filled$$
+combos:
+- p: [33, 34]
+  k: '&UPDIR'
