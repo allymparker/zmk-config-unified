@@ -28,6 +28,10 @@
     continue-list = <UNDERSCORE MINUS BSPC>;
 };
 
+&lt {
+   quick-tap-ms = <175>;                // repeat on tap-into-hold
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -40,9 +44,9 @@
 // |      |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |      |
 //                    | TAB | RET | ESC |   | BSP | SPC  | DEL |
                         bindings = <
-   &EMOJI &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
-   &CPP   &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
-   ____   &kp Z   &kp X  &kp C          &kp V        &kp B        /**/  &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
+   &C_VOL_UP &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
+   &CPP      &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
+   &C_VOL_DN &kp Z   &kp X  &kp C          &kp V        &kp B        /**/  &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
                          &lt MEDIA TAB  &lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
                         >;
 
