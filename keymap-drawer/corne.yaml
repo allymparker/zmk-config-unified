@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   Base:
-  - $$tabler:world$$
+  - $$world$$
   - Q
   - W
   - E
@@ -12,19 +12,19 @@ layers:
   - I
   - O
   - P
-  - $$tabler:zoom-in$$
-  - $$mdi:play-pause$$
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$zoom-in$$
+  - $$play-pause$$
+  - {t: A, h: $$apple-keyboard-control$$}
+  - {t: S, h: $$apple-keyboard-option$$}
+  - {t: D, h: $$apple-keyboard-command$$}
+  - {t: F, h: $$apple-keyboard-shift$$}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$'}
-  - $$tabler:screenshot$$
+  - {t: J, h: $$apple-keyboard-shift$$}
+  - {t: K, h: $$apple-keyboard-command$$}
+  - {t: L, h: $$apple-keyboard-option$$}
+  - {t: ;, h: $$apple-keyboard-control$$}
+  - $$screenshot$$
   - ''
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - $$tabler:zoom-out$$
+  - $$zoom-out$$
   - {t: ↹, h: media}
   - {t: ⏎, h: num}
   - {t: esc, h: nav}
@@ -100,10 +100,10 @@ layers:
   - ''
   - ''
   - ''
-  - $$tabler:arrow-back-up$$
-  - $$tabler:cut$$
-  - $$tabler:copy$$
-  - {t: '$$tabler:clipboard$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$undo$$
+  - $$cut$$
+  - $$copy$$
+  - {t: $$paste$$, h: $$apple-keyboard-shift$$}
   - Caps Wrd
   - ←
   - ↓
@@ -127,7 +127,7 @@ layers:
   - ''
   - {type: held}
   - Delete Word
-  - $$tabler:search$$
+  - $$search$$
   - ''
   num:
   - ''
@@ -143,10 +143,10 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$apple-keyboard-control$$
+  - $$apple-keyboard-option$$
+  - $$apple-keyboard-command$$
+  - $$apple-keyboard-shift$$
   - ''
   - +
   - '4'
@@ -192,10 +192,10 @@ layers:
   - F8
   - ''
   - ''
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - $$apple-keyboard-shift$$
+  - $$apple-keyboard-control$$
+  - $$apple-keyboard-option$$
+  - $$apple-keyboard-command$$
   - ''
   - ''
   - F1
@@ -234,10 +234,10 @@ layers:
   - ''
   - ''
   - ''
-  - $$tabler:player-track-prev-filled$$
-  - $$tabler:volume-2$$
-  - $$tabler:volume$$
-  - $$tabler:player-track-next-filled$$
+  - $$play-prev$$
+  - $$vol-down$$
+  - $$vol-up$$
+  - $$play-next$$
   - ''
   - ''
   - BT CLR
@@ -255,9 +255,9 @@ layers:
   - {type: held}
   - ''
   - ''
-  - $$tabler:volume-3$$
-  - $$mdi:play-pause$$
-  - $$tabler:player-stop-filled$$
+  - $$mute$$
+  - $$play-pause$$
+  - $$stop$$
 combos:
 - p: [33, 34]
   k: '&UPDIR'

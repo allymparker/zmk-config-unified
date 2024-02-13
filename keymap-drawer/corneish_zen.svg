@@ -1,183 +1,83 @@
 <svg width="1200" height="2354" viewBox="0 0 1200 2354" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
-<svg id="mdi:apple-keyboard-command">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-command" viewBox="0 0 24 24"><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
-</svg>
-<svg id="mdi:apple-keyboard-control">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
-</svg>
-<svg id="mdi:apple-keyboard-option">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-option" viewBox="0 0 24 24"><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
-</svg>
-<svg id="mdi:apple-keyboard-shift">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-shift" viewBox="0 0 24 24"><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
-</svg>
-<svg id="mdi:play-pause">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
-</svg>
-<svg id="tabler:arrow-back-up">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back-up" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 14l-4 -4l4 -4" />
-  <path d="M5 10h11a4 4 0 1 1 0 8h-1" />
-</svg>
-
-
+<svg id="apple-keyboard-command">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-command</title><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
 
 </svg>
-<svg id="tabler:clipboard">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-</svg>
-
-
+<svg id="apple-keyboard-control">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-control</title><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
 
 </svg>
-<svg id="tabler:copy">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
-  <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
-</svg>
-
-
+<svg id="apple-keyboard-option">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-option</title><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
 
 </svg>
-<svg id="tabler:cut">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cut" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M7 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M9.15 14.85l8.85 -10.85" />
-  <path d="M6 4l8.85 10.85" />
-</svg>
-
-
+<svg id="apple-keyboard-shift">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-shift</title><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
 
 </svg>
-<svg id="tabler:player-stop-filled">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-stop-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M17 4h-10a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3 -3v-10a3 3 0 0 0 -3 -3z" stroke-width="0" fill="currentColor" />
-</svg>
-
-
+<svg id="copy">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" /><path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" /></svg>
 
 </svg>
-<svg id="tabler:player-track-next-filled">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-next-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M2 5v14c0 .86 1.012 1.318 1.659 .753l8 -7a1 1 0 0 0 0 -1.506l-8 -7c-.647 -.565 -1.659 -.106 -1.659 .753z" stroke-width="0" fill="currentColor" />
-  <path d="M13 5v14c0 .86 1.012 1.318 1.659 .753l8 -7a1 1 0 0 0 0 -1.506l-8 -7c-.647 -.565 -1.659 -.106 -1.659 .753z" stroke-width="0" fill="currentColor" />
-</svg>
-
-
+<svg id="cut">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M9.15 14.85l8.85 -10.85" /><path d="M6 4l8.85 10.85" /></svg>
 
 </svg>
-<svg id="tabler:player-track-prev-filled">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-prev-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M20.341 4.247l-8 7a1 1 0 0 0 0 1.506l8 7c.647 .565 1.659 .106 1.659 -.753v-14c0 -.86 -1.012 -1.318 -1.659 -.753z" stroke-width="0" fill="currentColor" />
-  <path d="M9.341 4.247l-8 7a1 1 0 0 0 0 1.506l8 7c.647 .565 1.659 .106 1.659 -.753v-14c0 -.86 -1.012 -1.318 -1.659 -.753z" stroke-width="0" fill="currentColor" />
-</svg>
-
-
+<svg id="mute">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602a5 5 0 0 1 -.535 .464" /><path d="M17.7 5a9 9 0 0 1 2.362 11.086m-1.676 2.299a9 9 0 0 1 -.686 .615" /><path d="M9.069 5.054l.431 -.554a.8 .8 0 0 1 1.5 .5v2m0 4v8a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l1.294 -1.664" /><path d="M3 3l18 18" /></svg>
 
 </svg>
-<svg id="tabler:screenshot">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-screenshot" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M7 19a2 2 0 0 1 -2 -2" />
-  <path d="M5 13v-2" />
-  <path d="M5 7a2 2 0 0 1 2 -2" />
-  <path d="M11 5h2" />
-  <path d="M17 5a2 2 0 0 1 2 2" />
-  <path d="M19 11v2" />
-  <path d="M19 17v4" />
-  <path d="M21 19h-4" />
-  <path d="M13 19h-2" />
-</svg>
-
-
+<svg id="paste">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" /><path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" /></svg>
 
 </svg>
-<svg id="tabler:search">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-  <path d="M21 21l-6 -6" />
-</svg>
-
-
+<svg id="play-next">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 5v14c0 .86 1.012 1.318 1.659 .753l8 -7a1 1 0 0 0 0 -1.506l-8 -7c-.647 -.565 -1.659 -.106 -1.659 .753z" stroke-width="0" fill="currentColor" /><path d="M13 5v14c0 .86 1.012 1.318 1.659 .753l8 -7a1 1 0 0 0 0 -1.506l-8 -7c-.647 -.565 -1.659 -.106 -1.659 .753z" stroke-width="0" fill="currentColor" /></svg>
 
 </svg>
-<svg id="tabler:volume">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M15 8a5 5 0 0 1 0 8" />
-  <path d="M17.7 5a9 9 0 0 1 0 14" />
-  <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5" />
-</svg>
-
-
+<svg id="play-pause">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>play-pause</title><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
 
 </svg>
-<svg id="tabler:volume-2">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M15 8a5 5 0 0 1 0 8" />
-  <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5" />
-</svg>
-
-
+<svg id="play-prev">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20.341 4.247l-8 7a1 1 0 0 0 0 1.506l8 7c.647 .565 1.659 .106 1.659 -.753v-14c0 -.86 -1.012 -1.318 -1.659 -.753z" stroke-width="0" fill="currentColor" /><path d="M9.341 4.247l-8 7a1 1 0 0 0 0 1.506l8 7c.647 .565 1.659 .106 1.659 -.753v-14c0 -.86 -1.012 -1.318 -1.659 -.753z" stroke-width="0" fill="currentColor" /></svg>
 
 </svg>
-<svg id="tabler:volume-3">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume-3" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5" />
-  <path d="M16 10l4 4m0 -4l-4 4" />
-</svg>
-
-
+<svg id="screenshot">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 19a2 2 0 0 1 -2 -2" /><path d="M5 13v-2" /><path d="M5 7a2 2 0 0 1 2 -2" /><path d="M11 5h2" /><path d="M17 5a2 2 0 0 1 2 2" /><path d="M19 11v2" /><path d="M19 17v4" /><path d="M21 19h-4" /><path d="M13 19h-2" /></svg>
 
 </svg>
-<svg id="tabler:world">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-  <path d="M3.6 9h16.8" />
-  <path d="M3.6 15h16.8" />
-  <path d="M11.5 3a17 17 0 0 0 0 18" />
-  <path d="M12.5 3a17 17 0 0 1 0 18" />
-</svg>
-
-
+<svg id="search">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
 
 </svg>
-<svg id="tabler:zoom-in">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zoom-in" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-  <path d="M7 10l6 0" />
-  <path d="M10 7l0 6" />
-  <path d="M21 21l-6 -6" />
-</svg>
-
-
+<svg id="stop">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 4h-10a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3 -3v-10a3 3 0 0 0 -3 -3z" stroke-width="0" fill="currentColor" /></svg>
 
 </svg>
-<svg id="tabler:zoom-out">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zoom-out" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-  <path d="M7 10l6 0" />
-  <path d="M21 21l-6 -6" />
+<svg id="undo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 14l-4 -4l4 -4" /><path d="M5 10h11a4 4 0 1 1 0 8h-1" /></svg>
+
 </svg>
+<svg id="vol-down">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 8a5 5 0 0 1 0 8" /><path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5" /></svg>
 
+</svg>
+<svg id="vol-up">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 8a5 5 0 0 1 0 8" /><path d="M17.7 5a9 9 0 0 1 0 14" /><path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5" /></svg>
 
+</svg>
+<svg id="world">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M3.6 9h16.8" /><path d="M3.6 15h16.8" /><path d="M11.5 3a17 17 0 0 0 0 18" /><path d="M12.5 3a17 17 0 0 1 0 18" /></svg>
+
+</svg>
+<svg id="zoom-in">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M7 10l6 0" /><path d="M10 7l0 6" /><path d="M21 21l-6 -6" /></svg>
+
+</svg>
+<svg id="zoom-out">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M7 10l6 0" /><path d="M21 21l-6 -6" /></svg>
 
 </svg>
 </defs>/* end glyphs */
@@ -493,7 +393,7 @@ path.combo {
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:world" xlink:href="#tabler:world" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:world"/>
+<use href="#world" xlink:href="#world" x="-13" y="-13" height="26" width="26.0" class="key tap glyph world"/>
 </g>
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -537,31 +437,31 @@ path.combo {
 </g>
 <g transform="translate(1160, 70)" class="key keypos-11">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:zoom-in" xlink:href="#tabler:zoom-in" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:zoom-in"/>
+<use href="#zoom-in" xlink:href="#zoom-in" x="-13" y="-13" height="26" width="26.0" class="key tap glyph zoom-in"/>
 </g>
 <g transform="translate(40, 150)" class="key keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:play-pause"/>
+<use href="#play-pause" xlink:href="#play-pause" x="-13" y="-13" height="26" width="26.0" class="key tap glyph play-pause"/>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-control"/>
+<use href="#apple-keyboard-control" xlink:href="#apple-keyboard-control" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-control"/>
 </g>
 <g transform="translate(200, 130)" class="key keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">S</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<use href="#apple-keyboard-option" xlink:href="#apple-keyboard-option" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-option"/>
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">D</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-command"/>
+<use href="#apple-keyboard-command" xlink:href="#apple-keyboard-command" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-command"/>
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<use href="#apple-keyboard-shift" xlink:href="#apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-shift"/>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -574,26 +474,26 @@ path.combo {
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<use href="#apple-keyboard-shift" xlink:href="#apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-shift"/>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">K</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-command"/>
+<use href="#apple-keyboard-command" xlink:href="#apple-keyboard-command" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-command"/>
 </g>
 <g transform="translate(1000, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<use href="#apple-keyboard-option" xlink:href="#apple-keyboard-option" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-option"/>
 </g>
 <g transform="translate(1080, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-control"/>
+<use href="#apple-keyboard-control" xlink:href="#apple-keyboard-control" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-control"/>
 </g>
 <g transform="translate(1160, 150)" class="key keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:screenshot" xlink:href="#tabler:screenshot" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:screenshot"/>
+<use href="#screenshot" xlink:href="#screenshot" x="-13" y="-13" height="26" width="26.0" class="key tap glyph screenshot"/>
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -640,7 +540,7 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:zoom-out" xlink:href="#tabler:zoom-out" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:zoom-out"/>
+<use href="#zoom-out" xlink:href="#zoom-out" x="-13" y="-13" height="26" width="26.0" class="key tap glyph zoom-out"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -891,20 +791,20 @@ path.combo {
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:arrow-back-up" xlink:href="#tabler:arrow-back-up" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:arrow-back-up"/>
+<use href="#undo" xlink:href="#undo" x="-13" y="-13" height="26" width="26.0" class="key tap glyph undo"/>
 </g>
 <g transform="translate(200, 130)" class="key keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:cut" xlink:href="#tabler:cut" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:cut"/>
+<use href="#cut" xlink:href="#cut" x="-13" y="-13" height="26" width="26.0" class="key tap glyph cut"/>
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:copy" xlink:href="#tabler:copy" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:copy"/>
+<use href="#copy" xlink:href="#copy" x="-13" y="-13" height="26" width="26.0" class="key tap glyph copy"/>
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:clipboard" xlink:href="#tabler:clipboard" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:clipboard"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<use href="#paste" xlink:href="#paste" x="-13" y="-13" height="26" width="26.0" class="key tap glyph paste"/>
+<use href="#apple-keyboard-shift" xlink:href="#apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph apple-keyboard-shift"/>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -995,7 +895,7 @@ path.combo {
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:search" xlink:href="#tabler:search" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:search"/>
+<use href="#search" xlink:href="#search" x="-13" y="-13" height="26" width="26.0" class="key tap glyph search"/>
 </g>
 <g transform="translate(880, 293)" class="key keypos-41">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1054,19 +954,19 @@ path.combo {
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-control"/>
+<use href="#apple-keyboard-control" xlink:href="#apple-keyboard-control" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-control"/>
 </g>
 <g transform="translate(200, 130)" class="key keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-option"/>
+<use href="#apple-keyboard-option" xlink:href="#apple-keyboard-option" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-option"/>
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-command"/>
+<use href="#apple-keyboard-command" xlink:href="#apple-keyboard-command" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-command"/>
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<use href="#apple-keyboard-shift" xlink:href="#apple-keyboard-shift" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-shift"/>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1236,19 +1136,19 @@ path.combo {
 </g>
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<use href="#apple-keyboard-shift" xlink:href="#apple-keyboard-shift" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-shift"/>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-control"/>
+<use href="#apple-keyboard-control" xlink:href="#apple-keyboard-control" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-control"/>
 </g>
 <g transform="translate(1000, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-option"/>
+<use href="#apple-keyboard-option" xlink:href="#apple-keyboard-option" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-option"/>
 </g>
 <g transform="translate(1080, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-command"/>
+<use href="#apple-keyboard-command" xlink:href="#apple-keyboard-command" x="-13" y="-13" height="26" width="26.0" class="key tap glyph apple-keyboard-command"/>
 </g>
 <g transform="translate(1160, 150)" class="key keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1378,19 +1278,19 @@ path.combo {
 </g>
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:player-track-prev-filled" xlink:href="#tabler:player-track-prev-filled" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:player-track-prev-filled"/>
+<use href="#play-prev" xlink:href="#play-prev" x="-13" y="-13" height="26" width="26.0" class="key tap glyph play-prev"/>
 </g>
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:volume-2" xlink:href="#tabler:volume-2" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:volume-2"/>
+<use href="#vol-down" xlink:href="#vol-down" x="-13" y="-13" height="26" width="26.0" class="key tap glyph vol-down"/>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:volume" xlink:href="#tabler:volume" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:volume"/>
+<use href="#vol-up" xlink:href="#vol-up" x="-13" y="-13" height="26" width="26.0" class="key tap glyph vol-up"/>
 </g>
 <g transform="translate(1000, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:player-track-next-filled" xlink:href="#tabler:player-track-next-filled" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:player-track-next-filled"/>
+<use href="#play-next" xlink:href="#play-next" x="-13" y="-13" height="26" width="26.0" class="key tap glyph play-next"/>
 </g>
 <g transform="translate(1080, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1457,15 +1357,15 @@ path.combo {
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<use href="#tabler:volume-3" xlink:href="#tabler:volume-3" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:volume-3"/>
+<use href="#mute" xlink:href="#mute" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mute"/>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:play-pause"/>
+<use href="#play-pause" xlink:href="#play-pause" x="-13" y="-13" height="26" width="26.0" class="key tap glyph play-pause"/>
 </g>
 <g transform="translate(880, 293)" class="key keypos-41">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#tabler:player-stop-filled" xlink:href="#tabler:player-stop-filled" x="-13" y="-13" height="26" width="26.0" class="key tap glyph tabler:player-stop-filled"/>
+<use href="#stop" xlink:href="#stop" x="-13" y="-13" height="26" width="26.0" class="key tap glyph stop"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="4" ry="4" x="1022" y="202" width="36" height="36" class="combo"/>
