@@ -19,4 +19,4 @@ jobs:
       keymap_patterns: "base/*.keymap"
       config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
-      draw_args: "corneroll:'-k corne_rotated -l LAYOUT_split_3x6_3'"
+      draw_args: "base:'-k corne_rotated -l LAYOUT_split_3x6_3'"
