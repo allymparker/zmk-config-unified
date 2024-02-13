@@ -1,6 +1,6 @@
 layers:
   Base:
-  - $$world$$
+  - '&C_VOL_UP'
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: $$apple-keyboard-option$$}
   - {t: ;, h: $$apple-keyboard-control$$}
   - $$screenshot$$
-  - ''
+  - '&C_VOL_DN'
   - Z
   - X
   - C
