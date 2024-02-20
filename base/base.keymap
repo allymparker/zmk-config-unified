@@ -68,7 +68,7 @@
 // |      |BSLH |  @  |  $  |  £  |  [  |   |  ]  |     |     |     |     |      |
 //                    |  _  |  -  |  "  |   |     |     |     |
                         bindings = <
-   ____  &kp CARET   &kp AMPS &MC_HSH   &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
+   ____  &kp CARET   &kp AMPS &tdhsh    &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
    ____  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &kp LBRC /**/    &kp RBRC ____   ____   ____   ____   ____
    ____  &kp BSLH    &MC_AT   &kp DLLR  &MC_PND   &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
                               &kp UNDER &kp MINUS &MC_DQT  /**/    ____     ____   ____

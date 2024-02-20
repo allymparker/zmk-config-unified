@@ -28,3 +28,14 @@
 
 #define MEH(key) kp LS(LC(LA(key)))
 #define HYP(key) kp LS(LC(LA(LG(key))))
+
+/ {
+    behaviors {
+        tdhsh: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LA(N3)>, <&kp NUHS>, <&kp LS(N3)>;
+        };
+    };
+};
