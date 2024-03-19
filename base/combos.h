@@ -7,5 +7,13 @@
             bindings = <&UPDIR>;
             layers=<0>;
         };
+
+        combo_pml {
+            timeout-ms = <50>;
+            key-positions = <LB3 LB4>;
+            bindings = <&PML>;
+            layers=<0>;
+        };
+
     };
 };

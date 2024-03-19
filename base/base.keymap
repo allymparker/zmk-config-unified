@@ -249,5 +249,12 @@
         tap-ms = <40>;
         bindings = <&kp PERIOD &kp PERIOD &kp FSLH>;
     )
+
+    ZMK_MACRO(PML,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&kp A &kp L &kp L &kp Y &MC_AT &kp T &kp H &kp E &kp P &kp A &kp R &kp K &kp E &kp R &kp S &kp DOT &kp X &kp Y &kp Z>;
+    )
+
   };
 };
