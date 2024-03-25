@@ -256,5 +256,11 @@
         bindings = <&kp A &kp L &kp L &kp Y &MC_AT &kp T &kp H &kp E &kp P &kp A &kp R &kp K &kp E &kp R &kp S &kp DOT &kp X &kp Y &kp Z>;
     )
 
+    tdhsh: tap_dance_0 {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp N3>;//<&kp LA(N3)>, <&kp NUHS>, <&kp LS(N3)>;
+    };
   };
 };
