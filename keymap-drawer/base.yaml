@@ -43,7 +43,7 @@ layers:
   - {t: ␣, h: symbol}
   - ⌦
   symbol:
-  - ''
+  - $$play-next$$
   - ^
   - '&'
   - £
@@ -55,7 +55,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - $$stop$$
   - '`'
   - '|'
   - '!'
@@ -67,7 +67,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - $$play-prev$$
   - \
   - '@'
   - $
@@ -87,11 +87,11 @@ layers:
   - ''
   nav:
   - ''
-  - ''
-  - ''
+  - F1
+  - F14
   - F15
   - F16
-  - ''
+  - F17
   - App Next
   - Word Left
   - Word Right

@@ -580,6 +580,7 @@ path.combo {
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#play-next" xlink:href="#play-next" x="-13" y="-13" height="26" width="26.0" class="key tap glyph play-next"/>
 </g>
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -622,6 +623,7 @@ path.combo {
 </g>
 <g transform="translate(40, 150)" class="key keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#stop" xlink:href="#stop" x="-13" y="-13" height="26" width="26.0" class="key tap glyph stop"/>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -664,6 +666,7 @@ path.combo {
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#play-prev" xlink:href="#play-prev" x="-13" y="-13" height="26" width="26.0" class="key tap glyph play-prev"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -739,9 +742,11 @@ path.combo {
 </g>
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">F1</text>
 </g>
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">F14</text>
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -753,6 +758,7 @@ path.combo {
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">F17</text>
 </g>
 <g transform="translate(760, 60)" class="key keypos-6">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
