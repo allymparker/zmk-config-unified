@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
+    - name: allymparker
+      url-base: https://github.com/allymparker
   projects:
     - name: zmk
-      remote: caksoylar
-      revision: caksoylar/zen-8bit
+      remote: allymparker
+      revision: main
       import: app/west.yml
   self:
     path: config
