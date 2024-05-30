@@ -68,9 +68,9 @@
 // |      |BSLH |  @  |  $  |  £  |  [  |   |  ]  |     |     |     |     |      |
 //                    |  _  |  -  |  "  |   |     |     |     |
                         bindings = <
-   ____  &kp CARET   &kp AMPS &tdhsh    &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
+   ____  &kp CARET   &kp AMPS &kp HASH  &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
    ____  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &kp LBRC /**/    &kp RBRC ____   ____   ____   ____   ____
-   ____  &kp BSLH    &MC_AT   &kp DLLR  &MC_PND   &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
+   ____  &kp BSLH    &MC_AT   &kp DLLR  &kp POUND &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
                               &kp UNDER &kp MINUS &MC_DQT  /**/    ____     ____   ____
                         >;
 
@@ -250,17 +250,5 @@
         bindings = <&kp PERIOD &kp PERIOD &kp FSLH>;
     )
 
-    ZMK_MACRO(PML,
-        wait-ms = <30>;
-        tap-ms = <40>;
-        bindings = <&kp A &kp L &kp L &kp Y &MC_AT &kp T &kp H &kp E &kp P &kp A &kp R &kp K &kp E &kp R &kp S &kp DOT &kp X &kp Y &kp Z>;
-    )
-
-    tdhsh: tap_dance_0 {
-        compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp LS(LA(N3))>, <&kp LA(N3)>, <&kp NUHS>, <&kp LS(N3)>;
-    };
   };
 };

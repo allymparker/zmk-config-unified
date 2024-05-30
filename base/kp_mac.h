@@ -1,7 +1,5 @@
-#define MC_PND kp HASH
 #define MC_AT kp AT
 #define MC_DQT kp DQT
-#define MC_HSH kp LA(N3)
 #define MC_PPE kp PIPE
 #define MC_TLD kp TILDE
 #define MC_PWD kp LA(LEFT)
@@ -28,4 +26,3 @@
 
 #define MEH(key) kp LS(LC(LA(key)))
 #define HYP(key) kp LS(LC(LA(LG(key))))
-
