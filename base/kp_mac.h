@@ -2,6 +2,7 @@
 #define MC_DQT kp DQT
 #define MC_PPE kp PIPE
 #define MC_TLD kp TILDE
+#define MC_PND kp LA(N3)
 #define MC_PWD kp LA(LEFT)
 #define MC_NWD kp LA(RIGHT)
 #define MC_ZIN kp LG(PLUS)

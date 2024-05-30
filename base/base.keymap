@@ -70,8 +70,8 @@
                         bindings = <
    &CNXT  &kp CARET   &kp AMPS &kp HASH  &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
    &STOP  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &kp LBRC /**/    &kp RBRC ____   ____   ____   ____   ____
-   &CPRV  &kp BSLH    &MC_AT   &kp DLLR  &kp POUND &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
-                              &kp UNDER &kp MINUS &MC_DQT  /**/    ____     ____   ____
+   &CPRV  &kp BSLH    &MC_AT   &kp DLLR  &MC_PND   &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
+                               &kp UNDER &kp MINUS &MC_DQT  /**/    ____     ____   ____
                         >;
 
                         #ifdef corneroll

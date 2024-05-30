@@ -4,4 +4,4 @@ This repo contains the keymap config for each of my 3 Corne variants (Corne MX, 
 
 It's heavily influenced by Miryoku.
 
-![Keymap](keymap-drawer/corne.svg)
+![Keymap](keymap-drawer/base.svg)
