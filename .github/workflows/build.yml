@@ -14,7 +14,7 @@ jobs:
       matrix:
         # target: [corneroll]
         target: [zen]
-    uses: LOWPROKB/zmk/.github/workflows/build-user-config.yml@corne-ish-zen-v2
+    uses: allymparker/zmk/.github/workflows/build-user-config.yml@main
     with:
       build_matrix_path: "build_${{ matrix.target }}.yaml"
       config_path: "config_${{ matrix.target }}"
