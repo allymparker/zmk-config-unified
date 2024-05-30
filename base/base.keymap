@@ -68,9 +68,9 @@
 // |      |BSLH |  @  |  $  |  £  |  [  |   |  ]  |     |     |     |     |      |
 //                    |  _  |  -  |  "  |   |     |     |     |
                         bindings = <
-   ____  &kp CARET   &kp AMPS &kp HASH  &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
-   ____  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &kp LBRC /**/    &kp RBRC ____   ____   ____   ____   ____
-   ____  &kp BSLH    &MC_AT   &kp DLLR  &kp POUND &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
+   &CNXT  &kp CARET   &kp AMPS &kp HASH  &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
+   &STOP  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &kp LBRC /**/    &kp RBRC ____   ____   ____   ____   ____
+   &CPRV  &kp BSLH    &MC_AT   &kp DLLR  &kp POUND &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
                               &kp UNDER &kp MINUS &MC_DQT  /**/    ____     ____   ____
                         >;
 
@@ -86,12 +86,12 @@
                 nav_layer {
                         display-name="Nav";
 // -----------------------------------------------------------------------------------------
-// |      |     |     |     | F15 | F16 |   |SwApp| Pwd  | Nwd | PGUP|     |      |
+// |      | F13 | F14 | F15 | F16 | F17 |   |SwApp| Pwd  | Nwd | PGUP|     |      |
 // |      |UNDO | CUT | COPY|PASTE|CAPS |   |  <  |  v   |  ^  |  >  |     |      |
 // |      |     |     |     |     |     |   |SwWin| Home | End | PgDN|     |      |
 //                    |     |     |     |   |     | Spot |     |
                         bindings = <
-   ____    ____    ____    &kp F15 &kp F16 ____       /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
+   ____    &kp F1  &kp F14 &kp F15 &kp F16 &kp F17    /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
    ____    &MC_UND &MC_CUT &MC_CPY &MC_PST &TD_Caps   /**/    &kp LEFT      &kp DOWN    &kp UP   &kp RIGHT  ____  ____
    ____    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
                            ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
