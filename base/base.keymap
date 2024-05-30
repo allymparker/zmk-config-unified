@@ -6,7 +6,7 @@
 #include "keypos_42keys.h"                // keyposition helpers
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/bt.h>:
 #include "combos.h"
 #include "layer_names.h"
 #include "kp_mac.h"
@@ -86,12 +86,12 @@
                 nav_layer {
                         display-name="Nav";
 // -----------------------------------------------------------------------------------------
-// |      | F13 | F14 | F15 | F16 | F17 |   |SwApp| Pwd  | Nwd | PGUP|     |      |
+// |      | F16 | F17 | F18 | F19 | F20 |   |SwApp| Pwd  | Nwd | PGUP|     |      |
 // |      |UNDO | CUT | COPY|PASTE|CAPS |   |  <  |  v   |  ^  |  >  |     |      |
 // |      |     |     |     |     |     |   |SwWin| Home | End | PgDN|     |      |
 //                    |     |     |     |   |     | Spot |     |
                         bindings = <
-   ____    &kp F1  &kp F14 &kp F15 &kp F16 &kp F17    /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
+   ____    &kp F16 &kp F17 &kp F18 &kp F19 &kp F20    /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
    ____    &MC_UND &MC_CUT &MC_CPY &MC_PST &TD_Caps   /**/    &kp LEFT      &kp DOWN    &kp UP   &kp RIGHT  ____  ____
    ____    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
                            ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
