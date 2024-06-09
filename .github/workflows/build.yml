@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         # target: [corneroll]
-        target: [cygnus]
+        target: [corne]
     uses: allymparker/zmk/.github/workflows/build-user-config.yml@main
     with:
       build_matrix_path: "build_${{ matrix.target }}.yaml"
