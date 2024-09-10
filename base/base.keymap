@@ -91,10 +91,10 @@
 // |      |     |     |     |     |     |   |SwWin| Home | End | PgDN|     |      |
 //                    |     |     |     |   |     | Spot |     |
                         bindings = <
-   ____    &kp F16 &kp F17 &TD_Maximise &kp F19 ____    /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
-   ____    &MC_UND &MC_CUT &MC_CPY &MC_PST &TD_Caps   /**/    &kp LEFT      &kp DOWN    &kp UP   &kp RIGHT  ____  ____
-   ____    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
-                           ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
+   &CNXT    &kp F16 &kp F17 &TD_Maximise &kp F19 ____  /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
+   &STOP    &MC_UND &MC_CUT &MC_CPY &MC_PST &TD_Caps   /**/    &kp LEFT      &kp DOWN    &kp UP   &kp RIGHT  ____  ____
+   &CPRV    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
+                            ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
                         >;
 
                         #ifdef corneroll
