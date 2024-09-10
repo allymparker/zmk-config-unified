@@ -86,19 +86,19 @@ layers:
   - {type: held}
   - ''
   nav:
-  - ''
+  - $$play-next$$
   - F16
   - F17
-  - F18
+  - '&TD_Maximise'
   - F19
-  - F20
+  - ''
   - App Next
   - Word Left
   - Word Right
   - Page Up
   - ''
   - ''
-  - ''
+  - $$stop$$
   - $$undo$$
   - $$cut$$
   - $$copy$$
@@ -110,7 +110,7 @@ layers:
   - →
   - ''
   - ''
-  - ''
+  - $$play-prev$$
   - ''
   - ''
   - ''
