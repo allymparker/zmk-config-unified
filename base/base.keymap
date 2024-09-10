@@ -6,7 +6,7 @@
 #include "keypos_42keys.h"                // keyposition helpers
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>:
+#include <dt-bindings/zmk/bt.h>
 #include "combos.h"
 #include "layer_names.h"
 #include "kp_mac.h"
@@ -197,7 +197,7 @@
 / {
   behaviors {
 
-    TD_maximise: td_max {
+    TD_Maximise: td_max {
         compatible = "zmk,behavior-tap-dance";
         label = "TD_MAX";
         #binding-cells = <0>;
