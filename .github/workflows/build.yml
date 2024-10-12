@@ -3,8 +3,10 @@ on:
   push:
     paths-ignore:
       - ".github/workflows/keymap-drawer.yml"
+      - ".github/workflows/corneroll.yml"
       - "keymap-drawer/*"
       - "README.md"
+      - "config_corneroll"
   pull_request:
   workflow_dispatch:
 
