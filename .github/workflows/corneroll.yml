@@ -1,0 +1,23 @@
+name: Build Corneroll
+on:
+  push:
+    paths-ignore:
+      - ".github/workflows/keymap-drawer.yml"
+      - "keymap-drawer/*"
+      - "README.md"
+      - "config_corne"
+      - "config_cygnus"
+      - "config_zen"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        target: [corneroll]
+    uses: allymparker/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: "build_${{ matrix.target }}.yaml"
+      config_path: "config_${{ matrix.target }}"
+      archive_name: "${{ matrix.target }}"
