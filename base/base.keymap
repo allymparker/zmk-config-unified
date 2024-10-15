@@ -53,7 +53,7 @@
                         #ifdef corneroll
                          sensor-bindings = <
                                 &inc_dec_kp C_VOL_DN C_VOL_UP
-                                &inc_dec_kp LG(MINUS) LG(PLUS)
+                                &inc_dec_kp LC(MC_U) LC(MC_D)
                         >;
                         #endif
 
@@ -100,7 +100,7 @@
                         #ifdef corneroll
                          sensor-bindings = <
                                 &inc_dec_kp C_VOL_DN C_VOL_UP
-                                &inc_dec_kp J K
+                                &inc_dec_kp K J
                         >;
                         #endif
 
