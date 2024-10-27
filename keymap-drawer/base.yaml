@@ -90,7 +90,7 @@ layers:
   - F16
   - F17
   - '&TD_Maximise'
-  - F19
+  - '&TD_Right'
   - ''
   - App Next
   - Word Left

@@ -760,7 +760,7 @@ path.combo {
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">F19</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 62%">&amp;TD_Rig…</tspan></text>
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
