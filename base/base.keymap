@@ -91,7 +91,7 @@
 // |      |     |     |     |     |     |   |SwWin| Home | End | PgDN|     |      |
 //                    |     |     |     |   |     | Spot |     |
                         bindings = <
-   &CNXT    &kp F16 &kp F17 &TD_Maximise &kp F19 ____  /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
+   &CNXT    &kp F16 &kp F17 &TD_Maximise &TD_Right ____  /**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
    &STOP    &MC_UND &MC_CUT &MC_CPY &MC_PST &TD_Caps   /**/    &kp LEFT      &kp DOWN    &kp UP   &kp RIGHT  ____  ____
    &CPRV    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
                             ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
@@ -203,6 +203,14 @@
         #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&kp F18>, <&kp F20>, <&kp F21>;
+    };
+
+    TD_Right: td_right {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TD_RIGHT";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp F19>, <&kp MEH(F19)>;
     };
 
     TD_Caps: td_caps {
