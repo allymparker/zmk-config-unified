@@ -210,7 +210,7 @@
         label = "TD_RIGHT";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&kp F19>, <&kp MEH(F19)>;
+        bindings = <&kp F19>, <&MEH(F19)>;
     };
 
     TD_Caps: td_caps {
