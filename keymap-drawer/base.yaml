@@ -36,12 +36,12 @@ layers:
   - .
   - /
   - $$zoom-out$$
-  - {t: ↹, h: media}
+  - ''
   - {t: ⏎, h: num}
   - {t: esc, h: nav}
   - {t: ⌫, h: fun}
   - {t: ␣, h: symbol}
-  - ⌦
+  - ''
   symbol:
   - $$play-next$$
   - ^
@@ -79,7 +79,7 @@ layers:
   - ''
   - ''
   - ''
-  - _
+  - ''
   - '-'
   - '"'
   - ''
@@ -89,8 +89,8 @@ layers:
   - $$play-next$$
   - F16
   - F17
-  - '&TD_Maximise'
-  - '&TD_Right'
+  - '&TD_max'
+  - F19
   - ''
   - App Next
   - Word Left
@@ -170,7 +170,7 @@ layers:
   - {t: num, h: toggle}
   - '='
   - '0'
-  - .
+  - ''
   fun:
   - ''
   - F9
@@ -214,49 +214,20 @@ layers:
   - {type: held}
   - ''
   - ''
-  media:
-  - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$play-prev$$
-  - $$vol-down$$
-  - $$vol-up$$
-  - $$play-next$$
-  - ''
-  - ''
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - $$mute$$
-  - $$play-pause$$
-  - $$stop$$
+  media: [Boot, '', '', '', '', '', Boot, '', '', '', '', '', '', '', '', '', '', '', $$play-prev$$, $$vol-down$$, $$vol-up$$, $$play-next$$, '', '', BT CLR, BT 1,
+    BT 2, BT 3, '', '', '', '', '', '', '', '', '', '', '', $$mute$$, $$play-pause$$, $$stop$$]
 combos:
 - p: [33, 34]
   k: ../
+- p: [19, 20]
+  k: ↹
+  a: top
+  o: 0.15
+- p: [31, 32]
+  k: ⌦
+  a: top
+  o: 0.15
+- p: [16, 15]
+  k: _
+- p: [19, 20]
+  k: .
