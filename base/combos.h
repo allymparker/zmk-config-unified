@@ -11,7 +11,7 @@
 
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <RT1 RT2>;
+            key-positions = <RM1 RM2>;
             bindings = <&kp TAB>;
             layers=<0>;
         };
