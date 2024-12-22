@@ -1,0 +1,11 @@
+file_format: "1"
+id: charma
+name: Charma
+type: shield
+url: https://github.com/allymparker/charma
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - charma_left
+  - charma_right
