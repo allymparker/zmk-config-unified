@@ -1,5 +1,6 @@
-name: Build Charma
+name: Build Zen
 on:
+  pull_request:
   workflow_dispatch:
 
 jobs:
