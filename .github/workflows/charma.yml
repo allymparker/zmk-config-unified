@@ -1,0 +1,14 @@
+name: Build Charma
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        target: [charma]
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: "build_${{ matrix.target }}.yaml"
+      config_path: "config_${{ matrix.target }}"
+      archive_name: "${{ matrix.target }}"

@@ -1,13 +1,13 @@
 name: Build Corneroll
 on:
-  push:
-    paths-ignore:
-      - ".github/workflows/keymap-drawer.yml"
-      - "keymap-drawer/*"
-      - "README.md"
-      - "config_corne"
-      - "config_cygnus"
-      - "config_zen"
+  # push:
+  #   paths-ignore:
+  #     - ".github/workflows/keymap-drawer.yml"
+  #     - "keymap-drawer/*"
+  #     - "README.md"
+  #     - "config_corne"
+  #     - "config_cygnus"
+  #     - "config_zen"
   pull_request:
   workflow_dispatch:
 
