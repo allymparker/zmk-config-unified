@@ -1,9 +1,0 @@
-/.west
-/bootloader
-/modules
-/tools
-/zephyr
-/zmk-config
-/build
-*.DS_Store
-__pycache__
