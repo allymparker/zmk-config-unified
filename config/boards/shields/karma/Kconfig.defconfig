@@ -4,8 +4,8 @@
 if SHIELD_KARMA_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Karma"
-    
+    default "Charma"
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 

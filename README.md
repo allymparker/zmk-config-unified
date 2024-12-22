@@ -1,2 +1,2 @@
-# Karma ZMK
-ZMK config for Karma split ergonomic keyboard
+# Charma ZMK
+ZMK config for Charma split ergonomic keyboard

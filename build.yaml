@@ -14,8 +14,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: karma_left
+    shield: charma_left
   - board: seeeduino_xiao_ble
-    shield: karma_right
+    shield: charma_right
   - board: seeeduino_xiao_ble
     shield: settings_reset
