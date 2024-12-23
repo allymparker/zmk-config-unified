@@ -1,3 +1,9 @@
+#ifdef five_column
+  #include "keypos_36keys.h"
+#else
+  #include "keypos_42keys.h"
+#endif
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -7,6 +13,5 @@
             bindings = <&UPDIR>;
             layers=<0>;
         };
-
     };
 };
