@@ -4,3 +4,7 @@
 #define NUM      3
 #define FUN      4
 #define MEDIA    5
+#define JETBRAINS 6
+#define REF      7
+#define CODENAV  8
+#define DBG      9

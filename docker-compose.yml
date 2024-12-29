@@ -6,7 +6,6 @@ services:
       - label=disable
     working_dir: /keymap
     volumes:
-      - /Users/ally/src/allymparker/zmk-config-unified:/keymap
-      - ~/temp:/temp
+      - .:/keymap
     stdin_open: true
     tty: true
