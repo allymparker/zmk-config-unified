@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo "Usage: $0 <keyboard_name> <board_name>"
   exit 1
