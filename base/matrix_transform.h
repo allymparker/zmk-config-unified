@@ -1,8 +1,9 @@
+#include <dt-bindings/zmk/matrix_transform.h>
 
 #ifdef five_column
   / {
     chosen {
-      zmk,matrix_transform = &default_transform;
+      zmk,matrix_transform = &five_column_transform;
     };
 
       five_column_transform: keymap_transform_1 {
