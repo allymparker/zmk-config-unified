@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.keymap": "c",
+		"bt.h": "c",
+		"keys.h": "c"
+	}
+}
