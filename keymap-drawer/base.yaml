@@ -305,34 +305,34 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Refactor Rename, type: held}
-  - Refactor This
+  - {t: Rename, type: held}
+  - This
   - ''
   - ''
-  - Refactor Inline
+  - Inline
   - ''
-  - Refactor Extract Parameter
-  - ''
-  - ''
-  - ''
-  - Refactor Change Signature
-  - Refactor Safe Delete
-  - Refactor Extract Field
+  - Extract Parameter
   - ''
   - ''
   - ''
+  - Change Signature
+  - Safe Delete
+  - Extract Field
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - Refactor Extract Constant
-  - Refactor Extract Variable
   - ''
   - ''
-  - Refactor Inline
-  - Refactor Extract Method
+  - ''
+  - Extract Constant
+  - Extract Variable
+  - ''
+  - ''
+  - Inline
+  - Extract Method
   - ''
   - ''
   - ''
@@ -349,17 +349,17 @@ layers:
   - ''
   - ''
   - ''
-  - Navigate Type
+  - Type
   - ''
-  - Navigate Find Usages
-  - ''
-  - ''
+  - Find Usages
   - ''
   - ''
   - ''
   - ''
   - ''
-  - Navigate Declaration
+  - ''
+  - ''
+  - Declaration
   - ''
   - ''
   - ''
@@ -405,7 +405,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - Resume Program
+  - Resume
   - Step Into
   - Step Out
   - Step Over

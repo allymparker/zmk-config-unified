@@ -1540,15 +1540,11 @@ path.combo {
 </g>
 <g transform="translate(360, 50)" class="key held keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
-<text x="0" y="0" class="key held tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Rename</tspan>
-</text>
+<text x="0" y="0" class="key held tap"><tspan style="font-size: 83%">Rename</tspan></text>
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">This</tspan>
-</text>
+<text x="0" y="0" class="key tap">This</text>
 </g>
 <g transform="translate(760, 60)" class="key keypos-6">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1558,9 +1554,7 @@ path.combo {
 </g>
 <g transform="translate(920, 40)" class="key keypos-8">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Inline</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 83%">Inline</tspan></text>
 </g>
 <g transform="translate(1000, 50)" class="key keypos-9">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1568,7 +1562,7 @@ path.combo {
 <g transform="translate(1080, 70)" class="key keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Paramet…</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Paramet…</tspan>
 </text>
 </g>
 <g transform="translate(1160, 70)" class="key keypos-11">
@@ -1583,19 +1577,19 @@ path.combo {
 <g transform="translate(200, 130)" class="key keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Change</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Signatu…</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">Change</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Signatu…</tspan>
 </text>
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Safe</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Delete</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 83%">Safe</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Delete</tspan>
 </text>
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Field</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 71%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 71%">Field</tspan>
 </text>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
@@ -1628,13 +1622,13 @@ path.combo {
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Constant</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Constant</tspan>
 </text>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Variable</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Variable</tspan>
 </text>
 </g>
 <g transform="translate(360, 210)" class="key keypos-28">
@@ -1645,14 +1639,12 @@ path.combo {
 </g>
 <g transform="translate(760, 220)" class="key keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Inline</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 83%">Inline</tspan></text>
 </g>
 <g transform="translate(840, 210)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Refactor</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Method</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 71%">Extract</tspan><tspan x="0" dy="1.0em" style="font-size: 71%">Method</tspan>
 </text>
 </g>
 <g transform="translate(920, 200)" class="key keypos-32">
@@ -1710,9 +1702,7 @@ path.combo {
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Navigate</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Type</tspan>
-</text>
+<text x="0" y="0" class="key tap">Type</text>
 </g>
 <g transform="translate(760, 60)" class="key keypos-6">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1720,7 +1710,7 @@ path.combo {
 <g transform="translate(840, 50)" class="key keypos-7">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">Navigate</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Find</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Usages</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 83%">Find</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Usages</tspan>
 </text>
 </g>
 <g transform="translate(920, 40)" class="key keypos-8">
@@ -1746,9 +1736,7 @@ path.combo {
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Navigate</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">Declara…</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 62%">Declara…</tspan></text>
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1892,9 +1880,7 @@ path.combo {
 </g>
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 71%">Resume</tspan><tspan x="0" dy="1.0em" style="font-size: 71%">Program</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 83%">Resume</tspan></text>
 </g>
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
