@@ -23,6 +23,7 @@ parse_config:
     '&kp LG(RIGHT)': End
     '&kp LG(SPC)': $$search$$
     '&kp LA(BSPC)': Delete Word
+    '&to JETBRAINS': JB
 
     '&bt BT_SEL 0': BT 1
     '&bt BT_SEL 1': BT 2
@@ -57,6 +58,7 @@ parse_config:
     combo_capswd: {align: top}
     combo_f12:    {align: bottom}
     combo_btclr:  {align: bottom}
+    combo_jetbrains: {align: bottom}
 
   zmk_keycode_map:
     C_VOL_UP: $$vol-up$$
@@ -380,7 +382,7 @@ draw_config:
 
         --color--combo--bg: var(--color--material--blue-gray--100);
         --color--combo--border: var(--color--combo--bg);
-        --color--combo--dendron: var(--color--material--blue--100);
+        --color--combo--dendron: var(--color--material--blue--700);
         --color--combo--text--tap: var(--color--material--blue-gray--800);
         --color--combo--text--shifted: var(--color--material--blue-gray--400);
         --color--combo--text--hold: var(--color--combo--text--tap);
