@@ -179,7 +179,7 @@ draw_config:
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 36
+  combo_w: 42
   combo_h: 36
 
   # padding from the edge of cap to top and bottom legends
@@ -380,7 +380,7 @@ draw_config:
 
         --color--combo--bg: var(--color--material--blue-gray--100);
         --color--combo--border: var(--color--combo--bg);
-        --color--combo--dendron: var(--color--combo--border);
+        --color--combo--dendron: var(--color--material--blue--100);
         --color--combo--text--tap: var(--color--material--blue-gray--800);
         --color--combo--text--shifted: var(--color--material--blue-gray--400);
         --color--combo--text--hold: var(--color--combo--text--tap);
