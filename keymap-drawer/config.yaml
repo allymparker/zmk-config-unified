@@ -30,27 +30,27 @@ parse_config:
     '&bt BT_SEL 2': BT 3
     '&bt BT_SEL 3': BT 4
     '&bt BT_SEL 4': BT 5
-    '&JB_RT': Refactor This
-    '&JB_RR': Refactor Rename
-    '&JB_RD': Refactor Safe Delete
-    '&JB_RS': Refactor Change Signature
-    '&JB_RN': Refactor Inline
-    '&JB_RM': Refactor Extract Method
-    '&JB_RV': Refactor Extract Variable
-    '&JB_RC': Refactor Extract Constant
-    '&JB_RF': Refactor Extract Field
-    '&JB_RP': Refactor Extract Parameter
-    '&JB_NU': Navigate Find Usages
-    '&JB_ND': Navigate Declaration
-    '&JB_NT': Navigate Type
-    '&JB_NB': Navigate Back
-    '&JB_NF': Navigate Forward
+    '&JB_RT': This
+    '&JB_RR': Rename
+    '&JB_RD': Safe Delete
+    '&JB_RS': Change Signature
+    '&JB_RN': Inline
+    '&JB_RM': Extract Method
+    '&JB_RV': Extract Variable
+    '&JB_RC': Extract Constant
+    '&JB_RF': Extract Field
+    '&JB_RP': Extract Parameter
+    '&JB_NU': Find Usages
+    '&JB_ND': Declaration
+    '&JB_NT': Type
+    '&JB_NB': Back
+    '&JB_NF': Forward
     '&JB_BB': Build Project
     '&JB_DI': Step Into
     '&JB_DO': Step Over
     '&JB_DU': Step Out
-    '&JB_DR': Resume Program
-    '&JB_DB': Toggle Breakpoint
+    '&JB_DR': Resume
+    '&JB_DB': Breakpoint
 
   zmk_combos:
     combo_tab:    {align: top, o: 0.15}
