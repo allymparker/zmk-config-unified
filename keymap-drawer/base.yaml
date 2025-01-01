@@ -434,5 +434,6 @@ combos:
   k: ../
   l: [Base]
 - p: [28, 31]
-  k: {t: Jetbrains, h: toggle}
+  k: JB
   l: [Base]
+  a: bottom
