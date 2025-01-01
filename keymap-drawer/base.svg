@@ -207,7 +207,7 @@ svg.keymap {
 
     --color--combo--bg: var(--color--material--blue-gray--100);
     --color--combo--border: var(--color--combo--bg);
-    --color--combo--dendron: var(--color--combo--border);
+    --color--combo--dendron: var(--color--material--blue--100);
     --color--combo--text--tap: var(--color--material--blue-gray--800);
     --color--combo--text--shifted: var(--color--material--blue-gray--400);
     --color--combo--text--hold: var(--color--combo--text--tap);
@@ -575,13 +575,13 @@ path.combo {
 <text x="0" y="0" class="key tap">⌦</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="4" ry="4" x="1022" y="202" width="36" height="36" class="combo"/>
+<rect rx="4" ry="4" x="1019" y="202" width="42" height="36" class="combo"/>
 <text x="1040" y="220" class="combo tap">../</text>
 </g>
 <g class="combo combopos-1">
 <path d="M600,210 l-213,0" class="combo"/>
 <path d="M600,210 l213,0" class="combo"/>
-<rect rx="4" ry="4" x="582" y="192" width="36" height="36" class="combo"/>
+<rect rx="4" ry="4" x="579" y="192" width="42" height="36" class="combo"/>
 <a href="#Jetbrains">
 <text x="600" y="210" class="combo tap layer-activator"><tspan style="font-size: 62%">Jetbrai…</tspan></text>
 </a><text x="600" y="224" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
