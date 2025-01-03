@@ -10,7 +10,7 @@
 #define MC_PSC kp LS(LG(LC(N4)))
 #define EMOJI kp GLOBE
 #define MC_CUT kp LG(X)
-#define MC_CPY kp LG(C)
+#define MC_CPY hm_l LGUI LG(C)
 #define MC_PST hm_l LSHIFT LG(V)
 #define MC_UND kp LG(Z)
 #define MC_HME kp LG(LEFT)
