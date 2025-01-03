@@ -3,4 +3,10 @@
 #include "../base/kp_media.h"
 
 #define five_column true;
+/ {
+    chosen {
+        zmk,physical-layout = &foostan_corne_5col_layout;
+    };
+};
 #include "../base/base.keymap"
+
