@@ -1,8 +1,8 @@
 # Copyright (c) 2023 Ally Parker
 # SPDX-License-Identifier: MIT
 
-config SHIELD_KARMA_LEFT
+config SHIELD_CHARMA_LEFT
     def_bool $(shields_list_contains,charma_left)
 
-config SHIELD_KARMA_RIGHT
+config SHIELD_CHARMA_RIGHT
     def_bool $(shields_list_contains,charma_right)
