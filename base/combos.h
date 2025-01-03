@@ -18,7 +18,7 @@
         combo_jetbrains {
             timeout-ms = <50>;
             key-positions = <LB1 RB1>;
-            bindings = <&to JETBRAINS>;
+            bindings = <&sl JETBRAINS>;
             layers=<0>;
         };
 
