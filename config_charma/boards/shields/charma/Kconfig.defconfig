@@ -1,7 +1,7 @@
 # Copyright (c) 2023 Ally Parker
 # SPDX-License-Identifier: MIT
 
-if SHIELD_KARMA_LEFT
+if SHIELD_CHARMA_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Charma"
