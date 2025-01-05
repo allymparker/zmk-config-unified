@@ -12,6 +12,7 @@
 #include "kp_media.h"
 #include "kp_jetbrains.h"
 
+#define _XX_ &none
 #define ____ &trans
 #define FLASH bootloader
 
@@ -37,7 +38,7 @@
                         bindings = <
    &CVUP &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
    &CPP  &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
-   &CVDN &kp Z   &kp X  &kp C          &kp V        &kp B        /**/  &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
+   &CVDN &kp Z   &kp X  &kp C          &lt FWD V    &kp B        /**/  &kp N         &lt BCK M    &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
                          &lt MEDIA TAB  &lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
                         >;
 
@@ -168,11 +169,6 @@
 
                 jetbrains_layer {
                         display-name="Jetbrains";
-// -----------------------------------------------------------------------------------------
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-//                    |     |     |     |   |     |      |     |
                         bindings = <
    ____    ____    ____    ____    &sl REF ____    /**/    ____         ____   ____  ____    ____    ____
    ____    ____    ____    &sl DBG ____    ____    /**/    ____         ____   ____  ____    ____    ____
@@ -184,48 +180,55 @@
 
                 refactor_layer {
                         display-name="Refactor";
-// -----------------------------------------------------------------------------------------
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-//                    |     |     |     |   |     |      |     |
                         bindings = <
-   ____    ____    ____    ____    &JB_RR  &JB_RT  /**/    ____    ____    &JB_RN  ____    &JB_RP  ____
-   ____    ____    &JB_RS  &JB_RD  &JB_RF  ____    /**/    ____    ____    ____    ____    ____    ____
-   ____    ____    &JB_RC  &JB_RV  ____    ____    /**/    &JB_RN  &JB_RM  ____    ____    ____    ____
-                           ____    ____    &to BASE/**/    ____    ____    ____
+   _XX_    _XX_    _XX_    _XX_    &JB_RR  &JB_RT  /**/    _XX_    _XX_    &JB_RN  _XX_    &JB_RP  _XX_
+   _XX_    _XX_    &JB_RS  &JB_RD  &JB_RF  _XX_    /**/    _XX_    _XX_    _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    &JB_RC  &JB_RV  _XX_    _XX_    /**/    &JB_RN  &JB_RM  _XX_    _XX_    _XX_    _XX_
+                           _XX_    _XX_    &to BASE/**/    _XX_    _XX_    _XX_
                         >;
                 };
 
 
                 code_nav_layer {
                         display-name="Code Nav";
-// -----------------------------------------------------------------------------------------
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-//                    |     |     |     |   |     |      |     |
                         bindings = <
-   ____    ____    ____    ____    ____    &JB_NT  /**/    ____  &JB_NU  ____    ____    ____    ____
-   ____    ____    ____    &JB_ND  ____    ____    /**/    ____   ____   ____    ____    ____    ____
-   ____    ____    ____    ____    ____    ____    /**/    ____   ____   ____    ____    ____    ____
-                           ____    ____    &to BASE/**/    ____   ____   ____
+   _XX_    _XX_    _XX_    _XX_    _XX_    &JB_NT  /**/    _XX_  &JB_NU  _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    &JB_ND  _XX_    _XX_    /**/    _XX_   _XX_   _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_   _XX_   _XX_    _XX_    _XX_    _XX_
+                           _XX_    _XX_    &to BASE/**/    _XX_   _XX_   _XX_
                         >;
                 };
 
 
                 code_debug_layer {
                         display-name="Code Debug";
-// -----------------------------------------------------------------------------------------
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-// |      |     |     |     |     |     |   |     |      |     |     |     |      |
-//                    |     |     |     |   |     |      |     |
                         bindings = <
-   ____    ____    ____    ____    ____    ____    /**/    ____     ____    ____    ____    ____    ____
-   ____    ____    ____    ____    ____    ____    /**/    &JB_DR   &JB_DI  &JB_DU  &JB_DO  ____    ____
-   ____    ____    ____    ____    ____    ____    /**/    ____     ____    ____    ____    ____    ____
-                           ____    ____    &to BASE/**/    &JB_BB   ____    ____
+   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_     _XX_    _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    &JB_DR   &JB_DI  &JB_DU  &JB_DO  _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_     _XX_    _XX_    _XX_    _XX_    _XX_
+                           _XX_    _XX_    &to BASE/**/    &JB_BB   _XX_    _XX_
+                        >;
+                };
+
+
+                fwd_layer {
+                        display-name="Fwd";
+                        bindings = <
+   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_         &kp LG(RBKT)   _XX_    _XX_    _XX_    _XX_
+                           _XX_    _XX_    _XX_    /**/    _XX_         _XX_           _XX_
+                        >;
+                };
+
+
+                bck_layer {
+                        display-name="Bck";
+                        bindings = <
+   _XX_    _XX_    _XX_    _XX_    _XX_            _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    _XX_            _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    &kp LG(LBKT)    _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
+                           _XX_    _XX_            _XX_    /**/    _XX_         _XX_           _XX_
                         >;
                 };
 
