@@ -8,3 +8,5 @@
 #define REF      7
 #define CODENAV  8
 #define DBG      9
+#define FWD      10
+#define BCK      11
