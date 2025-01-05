@@ -14,8 +14,7 @@ jobs:
   build:
     strategy:
       matrix:
-        # target: [corneroll]
-        target: [zen]
+        target: [corne]
     uses: allymparker/zmk/.github/workflows/build-user-config.yml@main
     with:
       build_matrix_path: "build_${{ matrix.target }}.yaml"
