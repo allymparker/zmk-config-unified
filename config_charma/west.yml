@@ -13,5 +13,8 @@ manifest:
       remote: allymparker
       revision: main
       path: modules/zmk/tri-state
+    - name: zmk-rgbled-widget
+      remote: allymparker
+      revision: main
   self:
     path: config
