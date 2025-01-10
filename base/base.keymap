@@ -171,7 +171,7 @@
                         display-name="Jetbrains";
                         bindings = <
    ____    ____    ____    ____    &sl REF ____    /**/    ____         ____   ____  ____    ____    ____
-   ____    ____    ____    &sl DBG ____    ____    /**/    ____         ____   ____  ____    ____    ____
+   ____    ____    ____    &to DBG ____    ____    /**/    ____         ____   ____  ____    ____    ____
    ____    ____    ____    ____    ____    ____    /**/    &sl CODENAV  ____   ____  ____    ____    ____
                            ____    ____    &to BASE/**/    ____         ____   ____
                         >;
@@ -183,7 +183,7 @@
                         bindings = <
    _XX_    _XX_    _XX_    _XX_    &JB_RR  &JB_RT  /**/    _XX_    _XX_    &JB_RN  _XX_    &JB_RP  _XX_
    _XX_    _XX_    &JB_RS  &JB_RD  &JB_RF  _XX_    /**/    _XX_    _XX_    _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    &JB_RC  &JB_RV  _XX_    _XX_    /**/    &JB_RN  &JB_RM  _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    &JB_RC  &JB_RV  _XX_    /**/    &JB_RN  &JB_RM  _XX_    _XX_    _XX_    _XX_
                            _XX_    _XX_    &to BASE/**/    _XX_    _XX_    _XX_
                         >;
                 };
@@ -201,11 +201,11 @@
 
 
                 code_debug_layer {
-                        display-name="Code Debug";
+                        display-name="Debug";
                         bindings = <
    _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_     _XX_    _XX_    _XX_    _XX_    _XX_
    _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    &JB_DR   &JB_DI  &JB_DU  &JB_DO  _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_     _XX_    _XX_    _XX_    _XX_    _XX_
+   _XX_    _XX_    _XX_    _XX_    _XX_    &JB_DB  /**/    _XX_     _XX_    _XX_    _XX_    _XX_    _XX_
                            _XX_    _XX_    &to BASE/**/    &JB_BB   _XX_    _XX_
                         >;
                 };
@@ -267,7 +267,6 @@
 
     TD_Right: td_right {
         compatible = "zmk,behavior-tap-dance";
-        label = "TD_RIGHT";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&kp F19>, <&MEH(F19)>;
@@ -275,7 +274,6 @@
 
     TD_Caps: td_caps {
         compatible = "zmk,behavior-tap-dance";
-        label = "TD_CAPS";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&caps_word>, <&kp CAPS>;
@@ -283,21 +281,18 @@
 
     SW_APP: switch_application {
       compatible = "zmk,behavior-tri-state";
-      label = "SWITCH_APP";
       #binding-cells = <0>;
       bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
     };
 
     SW_WIN: switch_window {
       compatible = "zmk,behavior-tri-state";
-      label = "SWITCH_WIN";
       #binding-cells = <0>;
       bindings = <&kt LGUI>, <&kp GRAVE>, <&kt LGUI>;
     };
 
     hm_l: hm_l {
         compatible = "zmk,behavior-hold-tap";
-        label = "HM_L";
         #binding-cells = <2>;
         flavor = "balanced";
         tapping-term-ms = <200>;
@@ -310,7 +305,6 @@
 
     hm_r: hm_r {
         compatible = "zmk,behavior-hold-tap";
-        label = "HM_R";
         #binding-cells = <2>;
         flavor = "balanced";
         tapping-term-ms = <200>;
