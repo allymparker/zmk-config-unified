@@ -17,7 +17,7 @@
 #define FLASH bootloader
 
 &caps_word {
-    continue-list = <UNDERSCORE MINUS BSPC>;
+    continue-list = <UNDERSCORE MINUS BSPC DEL N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;
 };
 
 &lt {
@@ -35,12 +35,12 @@
 // |      |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |      |
 // |      |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |      |
 //                    | TAB | RET | ESC |   | BSP | SPC  | DEL |
-                        bindings = <
-   &CVUP &kp Q   &kp W  &kp E          &kp R        &kp T        /**/  &kp Y         &kp U        &kp I      &kp O    &kp P     &MC_ZIN
-   &CPP  &MC_A   &MC_S  &MC_D          &MC_F        &kp G        /**/  &kp H         &MC_J        &MC_K      &MC_L    &MC_SEMI  &MC_PSC
-   &CVDN &kp Z   &kp X  &kp C          &lt FWD V    &kp B        /**/  &kp N         &lt BCK M    &kp COMMA  &kp DOT  &kp FSLH  &MC_ZOT
-                         &lt MEDIA TAB  &lt NUM RET  &lt NAV ESC  /**/  &lt FUN BSPC  &lt SYM SPC  &kp DEL
-                        >;
+                        bindings = <LAYER_FROM42(   \
+&CVUP, &kp Q,   &kp W,  &kp E,          &kp R,        &kp T,        /**/  &kp Y,         &kp U,        &kp I,      &kp O,    &kp P,     &MC_ZIN,
+&CPP,  &MC_A,   &MC_S,  &MC_D,          &MC_F,        &kp G,        /**/  &kp H,         &MC_J,        &MC_K,      &MC_L,    &MC_SEMI,  &MC_PSC,
+&CVDN, &kp Z,   &kp X,  &kp C,          &lt FWD V,    &kp B,        /**/  &kp N,         &lt BCK M,    &kp COMMA,  &kp DOT,  &kp FSLH,  &MC_ZOT,
+                        &lt MEDIA TAB,  &lt NUM RET,  &lt NAV ESC,  /**/  &lt FUN BSPC,  &lt SYM SPC,  &kp DEL
+                        )>;
 
                         #ifdef corneroll
                          sensor-bindings = <
@@ -59,12 +59,12 @@
 // |      |  `  |  |  |  !  |   ' |  {  |   |  }  |     |     |     |     |      |
 // |      |BSLH |  @  |  $  |  £  |  [  |   |  ]  |     |     |     |     |      |
 //                    |  _  |  -  |  "  |   |     |     |     |
-                        bindings = <
-   &CNXT  &kp CARET   &kp AMPS &kp HASH  &MC_TLD   &kp LPAR /**/    &kp RPAR ____   ____   ____   ____   ____
-   &STOP  &kp GRAVE   &MC_PPE  &kp EXCL  &kp SQT   &kp LBRC /**/    &kp RBRC ____   ____   ____   ____   ____
-   &CPRV  &kp BSLH    &MC_AT   &kp DLLR  &MC_PND   &kp LBKT /**/    &kp RBKT ____   ____   ____   ____   ____
-                               &kp UNDER &kp MINUS &MC_DQT  /**/    ____     ____   ____
-                        >;
+                        bindings = <LAYER_FROM42(   \
+&CNXT,  &kp CARET,   &kp AMPS, &kp HASH,  &MC_TLD,   &kp LPAR, /**/    &kp RPAR, ____,   ____,   ____,   ____,   ____,
+&STOP,  &kp GRAVE,   &MC_PPE,  &kp EXCL,  &kp SQT,   &kp LBRC, /**/    &kp RBRC, ____,   ____,   ____,   ____,   ____,
+&CPRV,  &kp BSLH,    &MC_AT,   &kp DLLR,  &MC_PND,   &kp LBKT, /**/    &kp RBKT, ____,   ____,   ____,   ____,   ____,
+                               &kp UNDER, &kp MINUS, &MC_DQT,  /**/    ____,     ____,   ____
+                        )>;
 
                         #ifdef corneroll
                          sensor-bindings = <
@@ -82,12 +82,12 @@
 // |      |UNDO | CUT | COPY|PASTE|CAPS |   |  <  |  v   |  ^  |  >  |     |      |
 // |      |     |     |     |     |     |   |SwWin| Home | End | PgDN|     |      |
 //                    |     |     |     |   |     | Spot |     |
-                        bindings = <
-   &CNXT    &kp F16 &kp F17 &TD_Maximise &TD_Right ____/**/    &SW_APP       &MC_PWD     &MC_NWD  &kp PG_UP  ____  ____
-   &STOP    &MC_UND &MC_CUT &MC_CPY &MC_PST &TD_Caps   /**/    &kp LEFT      &kp DOWN    &kp UP   &kp RIGHT  ____  ____
-   &CPRV    ____    ____    ____    ____    ____       /**/    &SW_WIN       &MC_HME     &MC_END  &kp PG_DN  ____  ____
-                            ____    ____    ____       /**/    &kp LA(BSPC)  &kp LG(SPC) ____
-                        >;
+                        bindings = <LAYER_FROM42(   \
+&CNXT,    &kp F16, &kp F17, &TD_Maximise, &TD_Right, ____,/**/    &SW_APP,       &MC_PWD,     &MC_NWD,  &kp PG_UP,  ____,  ____,
+&STOP,    &MC_UND, &MC_CUT, &MC_CPY, &MC_PST, &TD_Caps,   /**/    &kp LEFT,      &kp DOWN,    &kp UP,   &kp RIGHT,  ____,  ____,
+&CPRV,    ____,    ____,    ____,    ____,    ____,       /**/    &SW_WIN,       &MC_HME,     &MC_END,  &kp PG_DN,  ____,  ____,
+                            ____,    ____,    ____,       /**/    &kp LA(BSPC),  &kp LG(SPC), ____
+                        )>;
 
                         #ifdef corneroll
                          sensor-bindings = <
@@ -105,12 +105,12 @@
 // |      | CTRL| ALT | GUI | SHFT|     |   |  +  |  4   |  5  |  6  |  /  |      |
 // |      |     |     |     |     |     |   |  -  |  1   |  2  |  3  |  %  |      |
 //                    |     |     |     |   |  =  |  0   |  .  |
-                        bindings = <
-   ____    ____      ____      ____      ____       ____     /**/    &kp STAR  &kp N7  &kp N8  &kp N9  ____      ____
-   ____    &kp LCTRL &kp LALT  &kp LGUI  &kp LSHFT  ____     /**/    &kp PLUS  &kp N4  &kp N5  &kp N6  &kp FSLH  ____
-   ____    ____      ____      ____      ____       ____     /**/    &kp MINUS &kp N1  &kp N2  &kp N3  &kp PRCNT ____
-                               ____      &tog NUM   &tog NUM /**/    &kp EQUAL &kp N0  &kp DOT
-                        >;
+                        bindings = <LAYER_FROM42(   \
+____,    ____,      ____,      ____,      ____,       ____,     /**/    &kp STAR,  &kp N7,  &kp N8,  &kp N9,  ____,      ____,
+____,    &kp LCTRL, &kp LALT,  &kp LGUI,  &kp LSHFT,  ____,     /**/    &kp PLUS,  &kp N4,  &kp N5,  &kp N6,  &kp FSLH,  ____,
+____,    ____,      ____,      ____,      ____,       ____,     /**/    &kp MINUS, &kp N1,  &kp N2,  &kp N3,  &kp PRCNT, ____,
+                               ____,      &tog NUM,   &tog NUM, /**/    &kp EQUAL, &kp N0,  &kp DOT
+                        )>;
 
                         #ifdef corneroll
                          sensor-bindings = <
@@ -128,12 +128,12 @@
 // |      |     | F5  |  F6 |  F7 |  F8 |   |     |      |     |     |     |      |
 // |      |     | F1  |  F2 |  F3 |  F4 |   |     |      |     |     |     |      |
 //                    |     |     |     |   |     |      |     |
-                        bindings = <
-   ____   &kp F9  &kp F10 &kp F11 &kp F12 ____   /**/   ____    ____      ____      ____     ____     ____
-   ____   &kp F5  &kp F6  &kp F7  &kp F8  ____   /**/   ____    &kp LSHFT &kp LCTRL &kp LALT &kp LGUI ____
-   ____   &kp F1  &kp F2  &kp F3  &kp F4  ____   /**/   ____    ____      ____      ____     ____     ____
-                          ____    ____    ____   /**/   ____    ____      ____
-                        >;
+                        bindings = <LAYER_FROM42(   \
+____,   &kp F9,  &kp F10, &kp F11, &kp F12, ____,   /**/   ____,    ____,      ____,      ____,     ____,     ____,
+____,   &kp F5,  &kp F6,  &kp F7,  &kp F8,  ____,   /**/   ____,    &kp LSHFT, &kp LCTRL, &kp LALT, &kp LGUI, ____,
+____,   &kp F1,  &kp F2,  &kp F3,  &kp F4,  ____,   /**/   ____,    ____,      ____,      ____,     ____,     ____,
+                          ____,    ____,    ____,   /**/   ____,    ____,      ____
+                        )>;
 
                         #ifdef corneroll
                          sensor-bindings = <
@@ -151,12 +151,12 @@
 // |      |     |     |     |     |     |   |  <<  |  ^  |  v  |  >> |     |      |
 // |BTCLR | BT0 | BT1 | BT2 |     |     |   |     |      |     |     |     |      |
 //                    |     |     |     |   |Mute | Play | Stop|
-                        bindings = <
-   &FLASH ____   ____   ____   ____   ____   /**/    &FLASH ____  ____   ____  ____  ____
-   ____   ____   ____   ____   ____   ____   /**/    &CPRV  &CVDN &CVUP &CNXT  ____  ____
-   &BTCLR &BT0   &BT1   &BT2   ____   ____   /**/    ____   ____  ____   ____  ____  ____
-                        ____   ____   ____   /**/    &MUTE  &CPP  &STOP
-                        >;
+                        bindings = <LAYER_FROM42(   \
+&FLASH, ____,   ____,   ____,   ____,   ____,   /**/    &FLASH, ____,  ____,   ____,  ____,  ____,
+____,   ____,   ____,   ____,   ____,   ____,   /**/    &CPRV,  &CVDN, &CVUP, &CNXT,  ____,  ____,
+&BTCLR, &BT0,   &BT1,   &BT2,   ____,   ____,   /**/    ____,   ____,  ____,   ____,  ____,  ____,
+                        ____,   ____,   ____,   /**/    &MUTE,  &CPP,  &STOP
+                        )>;
 
                         #ifdef corneroll
                          sensor-bindings = <
@@ -169,67 +169,67 @@
 
                 jetbrains_layer {
                         display-name="Jetbrains";
-                        bindings = <
-   ____    ____    ____    ____    &sl REF ____    /**/    ____         ____   ____  ____    ____    ____
-   ____    ____    ____    &to DBG ____    ____    /**/    ____         ____   ____  ____    ____    ____
-   ____    ____    ____    ____    ____    ____    /**/    &sl CODENAV  ____   ____  ____    ____    ____
-                           ____    ____    &to BASE/**/    ____         ____   ____
-                        >;
+                        bindings = <LAYER_FROM42(   \
+____,    ____,    ____,    ____,    &sl REF, ____,     /**/    ____,         ____,   ____,  ____,    ____,    ____,
+____,    ____,    ____,    &to DBG, ____,    ____,     /**/    ____,         ____,   ____,  ____,    ____,    ____,
+____,    ____,    ____,    ____,    ____,    ____,     /**/    &sl CODENAV,  ____,   ____,  ____,    ____,    ____,
+                           ____,    ____,    &to BASE, /**/    ____,         ____,   ____
+                        )>;
                 };
 
 
                 refactor_layer {
                         display-name="Refactor";
-                        bindings = <
-   _XX_    _XX_    _XX_    _XX_    &JB_RR  &JB_RT  /**/    _XX_    _XX_    &JB_RN  _XX_    &JB_RP  _XX_
-   _XX_    _XX_    &JB_RS  &JB_RD  &JB_RF  _XX_    /**/    _XX_    _XX_    _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    &JB_RC  &JB_RV  _XX_    /**/    &JB_RN  &JB_RM  _XX_    _XX_    _XX_    _XX_
-                           _XX_    _XX_    &to BASE/**/    _XX_    _XX_    _XX_
-                        >;
+                        bindings = <LAYER_FROM42(   \
+_XX_,    _XX_,    _XX_,    _XX_,    &JB_RR,  &JB_RT,  /**/    _XX_,    _XX_,    &JB_RN,  _XX_,    &JB_RP,  _XX_,
+_XX_,    _XX_,    &JB_RS,  &JB_RD,  &JB_RF,  _XX_,    /**/    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    &JB_RC,  &JB_RV,  _XX_,    /**/    &JB_RN,  &JB_RM,  _XX_,    _XX_,    _XX_,    _XX_,
+                           _XX_,    _XX_,    &to BASE, /**/    _XX_,    _XX_,    _XX_
+                        )>;
                 };
 
 
                 code_nav_layer {
                         display-name="Code Nav";
-                        bindings = <
-   _XX_    _XX_    _XX_    _XX_    _XX_    &JB_NT  /**/    _XX_  &JB_NU  _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    &JB_ND  _XX_    _XX_    /**/    _XX_   _XX_   _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_   _XX_   _XX_    _XX_    _XX_    _XX_
-                           _XX_    _XX_    &to BASE/**/    _XX_   _XX_   _XX_
-                        >;
+                        bindings = <LAYER_FROM42(   \
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    &JB_NT,  /**/    _XX_,  &JB_NU,  _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    &JB_ND,  _XX_,    _XX_,    /**/    _XX_,   _XX_,   _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,   _XX_,   _XX_,    _XX_,    _XX_,    _XX_,
+                           _XX_,    _XX_,    &to BASE, /**/    _XX_,   _XX_,   _XX_
+                        )>;
                 };
 
 
                 code_debug_layer {
                         display-name="Debug";
-                        bindings = <
-   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_     _XX_    _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    &JB_DR   &JB_DI  &JB_DU  &JB_DO  _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    _XX_    &JB_DB  /**/    _XX_     _XX_    _XX_    _XX_    _XX_    _XX_
-                           _XX_    _XX_    &to BASE/**/    &JB_BB   _XX_    _XX_
-                        >;
+                        bindings = <LAYER_FROM42(   \
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,     _XX_,    _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    &JB_DR,   &JB_DI,  &JB_DU,  &JB_DO,  _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    &JB_DB,  /**/    _XX_,     _XX_,    _XX_,    _XX_,    _XX_,    _XX_,
+                           _XX_,    _XX_,    &to BASE,/**/    &JB_BB,   _XX_,    _XX_
+                        )>;
                 };
 
 
                 fwd_layer {
                         display-name="Fwd";
-                        bindings = <
-   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    _XX_    _XX_    /**/    _XX_         &kp LG(RBKT)   _XX_    _XX_    _XX_    _XX_
-                           _XX_    _XX_    _XX_    /**/    _XX_         _XX_           _XX_
-                        >;
+                        bindings = <LAYER_FROM42(   \
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         &kp LG(RBKT),   _XX_,    _XX_,    _XX_,    _XX_,
+                           _XX_,    _XX_,    _XX_,    /**/    _XX_,         _XX_,           _XX_
+                        )>;
                 };
 
 
                 bck_layer {
                         display-name="Bck";
-                        bindings = <
-   _XX_    _XX_    _XX_    _XX_    _XX_            _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    _XX_            _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
-   _XX_    _XX_    _XX_    _XX_    &kp LG(LBKT)    _XX_    /**/    _XX_         _XX_           _XX_    _XX_    _XX_    _XX_
-                           _XX_    _XX_            _XX_    /**/    _XX_         _XX_           _XX_
-                        >;
+                        bindings = <LAYER_FROM42(   \
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,            _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    _XX_,            _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    &kp LG(LBKT),    _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
+                           _XX_,    _XX_,            _XX_,    /**/    _XX_,         _XX_,           _XX_
+                        )>;
                 };
 
 
@@ -240,12 +240,11 @@
 // // |      |     |     |     |     |     |   |     |      |     |     |     |      |
 // // |      |     |     |     |     |     |   |     |      |     |     |     |      |
 // //                    |     |     |     |   |     |      |     |
-//                         bindings = <
-//    ____    ____    ____    ____    ____    ____    /**/    ____         ____           ____    ____    ____    ____
+//                         bindings = <LAYER_FROM42(//    ____    ____    ____    ____    ____    ____    /**/    ____         ____           ____    ____    ____    ____
 //    ____    ____    ____    ____    ____    ____    /**/    ____         ____           ____    ____    ____    ____
 //    ____    ____    ____    ____    ____    ____    /**/    ____         ____           ____    ____    ____    ____
 //                            ____    ____    ____    /**/    ____         ____           ____
-//                         >;
+//                         )>;
 //                 };
 
 
@@ -259,7 +258,6 @@
 
     TD_Maximise: td_max {
         compatible = "zmk,behavior-tap-dance";
-        label = "TD_MAX";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&kp F18>, <&kp F20>, <&kp F21>;
@@ -323,3 +321,4 @@
 
   };
 };
+
