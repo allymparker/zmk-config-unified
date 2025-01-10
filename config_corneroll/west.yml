@@ -1,11 +1,17 @@
 manifest:
   remotes:
     - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: allymparker
       url-base: https://github.com/allymparker
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: allymparker
       revision: allymparker/corneroll
       import: app/west.yml
+    - name: zmk-tri-state
+      remote: allymparker
+      revision: main
+      path: modules/zmk/tri-state
   self:
     path: config
