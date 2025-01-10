@@ -273,7 +273,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Code Debug, h: sticky}
+  - {t: Debug, h: toggle}
   - ''
   - ''
   - ''
@@ -327,9 +327,9 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - Extract Constant
   - Extract Variable
-  - ''
   - ''
   - Inline
   - Extract Method
@@ -386,7 +386,7 @@ layers:
   - ''
   - ''
   - ''
-  Code Debug:
+  Debug:
   - ''
   - ''
   - ''
@@ -402,7 +402,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - Resume
@@ -416,7 +416,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Breakpoint
   - ''
   - ''
   - ''
