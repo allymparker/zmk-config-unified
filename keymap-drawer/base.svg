@@ -583,6 +583,22 @@ path.combo {
 <text x="1040" y="220" class="combo tap">../</text>
 </g>
 <g class="combo combopos-1">
+<rect rx="4" ry="4" x="1019" y="122" width="42" height="36" class="combo"/>
+<use href="#screenshot" xlink:href="#screenshot" x="1027" y="127" height="26" width="26.0" class="combo tap glyph screenshot"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="4" ry="4" x="139" y="42" width="42" height="36" class="combo"/>
+<use href="#vol-up" xlink:href="#vol-up" x="147" y="47" height="26" width="26.0" class="combo tap glyph vol-up"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="4" ry="4" x="139" y="122" width="42" height="36" class="combo"/>
+<use href="#play-pause" xlink:href="#play-pause" x="147" y="127" height="26" width="26.0" class="combo tap glyph play-pause"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="4" ry="4" x="139" y="202" width="42" height="36" class="combo"/>
+<use href="#vol-down" xlink:href="#vol-down" x="147" y="207" height="26" width="26.0" class="combo tap glyph vol-down"/>
+</g>
+<g class="combo combopos-5">
 <path d="M600,251 h-234 a6.0,6.0 0 0 1 -6.0,-6.0 v-8" class="combo"/>
 <path d="M600,251 h234 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
 <rect rx="4" ry="4" x="579" y="233" width="42" height="36" class="combo"/>
@@ -1056,15 +1072,9 @@ path.combo {
 </g>
 <g transform="translate(408, 304) rotate(15.0)" class="key held keypos-37">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
-<a href="#Num">
-<text x="0" y="0" class="key held tap layer-activator">Num</text>
-</a><text x="0" y="34" class="key held hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<a href="#Num">
-<text x="0" y="0" class="key tap layer-activator">Num</text>
-</a><text x="0" y="54" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
