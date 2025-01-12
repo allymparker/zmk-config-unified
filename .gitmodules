@@ -1,0 +1,7 @@
+[submodule "zmk-tri-state"]
+    path = zmk-tri-state
+    url = https://github.com/allymparker/zmk-tri-state.git
+
+[submodule "zmk-rgbled-widget"]
+	path = zmk-rgbled-widget
+	url = https://github.com/allymparker/zmk-rgbled-widget.git
