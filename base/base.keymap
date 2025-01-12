@@ -7,10 +7,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include "layer_names.h"
-#include "combos.h"
 #include "kp_mac.h"
 #include "kp_media.h"
 #include "kp_jetbrains.h"
+#include "combos.h"
 
 #define _XX_ &none
 #define ____ &trans
