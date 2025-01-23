@@ -9,10 +9,24 @@
             layers=<0>;
         };
 
+        combo_zoom_in {
+            timeout-ms = <50>;
+            key-positions = <RT3 RT4>;
+            bindings = <&MC_ZIN>;
+            layers=<0>;
+        };
+
         combo_screenshot {
             timeout-ms = <50>;
             key-positions = <RM3 RM4>;
             bindings = <&MC_PSC>;
+            layers=<0>;
+        };
+
+        combo_zoom_out {
+            timeout-ms = <50>;
+            key-positions = <RB3 RB4>;
+            bindings = <&MC_ZOT>;
             layers=<0>;
         };
 
