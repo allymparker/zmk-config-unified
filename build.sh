@@ -2,13 +2,17 @@
 
 set -e
 
-if [ -z "$1" ] || [ -z "$2" ]; then
-  echo "Usage: $0 <keyboard_name> <board_name>"
+if [ -z "$1" ]; then
+  echo "Usage: $0 <keyboard_name>"
   exit 1
 fi
 
-KEYBOARD_NAME=$1
-BOARD_NAME=$2
+if [ "$1" == "charma" ]; then
+  echo "Building for Charma keyboard"
+KEYBOARD_NAME="charma"
+BOARD_NAME="seeeduino_xiao_ble"
+ADDITIONAL_SHIELDS="rgbled_adapter"
+fi
 
 rm -rf .west
 
@@ -17,12 +21,12 @@ export "CMAKE_PREFIX_PATH=/keymap/zephyr:$CMAKE_PREFIX_PATH"
 
 west build -d /build/left -p -b "$BOARD_NAME" \
   -s /keymap/zmk/app \
-  -- -DSHIELD="${KEYBOARD_NAME}_left" \
+  -- -DSHIELD="${KEYBOARD_NAME}_left ${ADDITIONAL_SHIELDS}" \
   -DZMK_CONFIG="/keymap/config_$KEYBOARD_NAME"
 
 west build -d /build/right -p -b "$BOARD_NAME" \
   -s /keymap/zmk/app \
-  -- -DSHIELD="${KEYBOARD_NAME}_right" \
+  -- -DSHIELD="${KEYBOARD_NAME}_right ${ADDITIONAL_SHIELDS}" \
   -DZMK_CONFIG="/keymap/config_$KEYBOARD_NAME"
 
 west build -d /build/settings_reset -p -b "$BOARD_NAME" \
