@@ -19,7 +19,6 @@
 
 #define _XX_ &none
 #define ____ &trans
-#define FLASH bootloader
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS BSPC DEL N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;
@@ -60,10 +59,10 @@
                         display-name="Symbol";
 
 // -----------------------------------------------------------------------------------------
-// |      | HAT |  &  |  #  |  ~  |  (  |   |  )  |     |     |     |     |      |
-// |      |  `  |  |  |  !  |   ' |  {  |   |  }  |     |     |     |     |      |
-// |      |BSLH |  @  |  $  |  £  |  [  |   |  ]  |     |     |     |     |      |
-//                    |  _  |  -  |  "  |   |     |     |     |
+// | >>  | HAT |  &  |  #  |  ~  |  (  |   |  )  |     |     |     |     |      |
+// |     |  `  |  |  |  !  |   ' |  {  |   |  }  |     |     |     |     |      |
+// | <<  |BSLH |  @  |  $  |  £  |  [  |   |  ]  |     |     |     |     |      |
+//                   |  _  |  -  |  "  |   |     |     |     |
                         bindings = <LAYER_FROM42(   \
 &CNXT,  &kp CARET,   &kp AMPS, &kp HASH,  &MC_TLD,   &kp LPAR, /**/    &kp RPAR, ____,   ____,   ____,   ____,   ____,
 &STOP,  &kp GRAVE,   &MC_PPE,  &kp EXCL,  &kp SQT,   &kp LBRC, /**/    &kp RBRC, ____,   ____,   ____,   ____,   ____,
@@ -111,9 +110,9 @@
 // |      |     |     |     |     |     |   |  -  |  1   |  2  |  3  |  %  |      |
 //                    |     |     |     |   |  =  |  0   |  .  |
                         bindings = <LAYER_FROM42(   \
-____,    ____,      ____,      ____,      ____,       ____,     /**/    &kp STAR,  &kp N7,  &kp N8,  &kp N9,  ____,      ____,
+&CNXT,   ____,      ____,      ____,      ____,       ____,     /**/    &kp STAR,  &kp N7,  &kp N8,  &kp N9,  ____,      ____,
 ____,    &kp LCTRL, &kp LALT,  &kp LGUI,  &kp LSHFT,  ____,     /**/    &kp PLUS,  &kp N4,  &kp N5,  &kp N6,  &kp FSLH,  ____,
-____,    ____,      ____,      ____,      ____,       ____,     /**/    &kp MINUS, &kp N1,  &kp N2,  &kp N3,  &kp PRCNT, ____,
+&CPRV,   ____,      ____,      ____,      ____,       ____,     /**/    &kp MINUS, &kp N1,  &kp N2,  &kp N3,  &kp PRCNT, ____,
                                ____,      ____,       ____,     /**/    &kp EQUAL, &kp N0,  &kp DOT
                         )>;
 
@@ -174,6 +173,11 @@ ____,   ____,   ____,   ____,   ____,   ____,   /**/    &CPRV,  &CVDN, &CVUP, &C
 
                 jetbrains_layer {
                         display-name="Jetbrains";
+// -----------------------------------------------------------------------------------------
+// |      |     |     |     | REF |     |   |       |      |     |     |     |      |
+// |      |     |     | DBG |     |     |   |       |      |     |     |     |      |
+// |      |     |     |     |     |     |   |CODENAV|      |     |     |     |      |
+//                    |     |     |BASE |   |       |      |     |
                         bindings = <LAYER_FROM42(   \
 ____,    ____,    ____,    ____,    &sl REF , ____,     /**/    ____,         ____,   ____,  ____,    ____,    ____,
 ____,    ____,    ____,    &to DBG , ____,    ____,     /**/    ____,         ____,   ____,  ____,    ____,    ____,
@@ -185,6 +189,7 @@ ____,    ____,    ____,    ____,    ____,    ____,     /**/    &sl CODENAV ,  __
 
                 refactor_layer {
                         display-name="Refactor";
+
                         bindings = <LAYER_FROM42(   \
 _XX_,    _XX_,    _XX_,    _XX_,    &JB_RR,  &JB_RT,  /**/    _XX_,    _XX_,    &JB_RN,  _XX_,    &JB_RP,  _XX_,
 _XX_,    _XX_,    &JB_RS,  &JB_RD,  &JB_RF,  _XX_,    /**/    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,

@@ -44,5 +44,19 @@
             layers=<0>;
         };
 
+        combo_flash_L {
+            timeout-ms = <50>;
+            key-positions = <LT0 LT4>;
+            bindings = <&FLASH>;
+            layers=<0>;
+        };
+
+        combo_flash_R {
+            timeout-ms = <50>;
+            key-positions = <RT0 RT4>;
+            bindings = <&FLASH>;
+            layers=<0>;
+        };
+
     };
 };

@@ -1,3 +1,4 @@
+#define FLASH bootloader
 #define MC_AT kp AT
 #define MC_DQT kp DQT
 #define MC_PPE kp PIPE
