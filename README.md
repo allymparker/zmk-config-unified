@@ -15,3 +15,6 @@ docker compose run zmk-build
 ./build.sh charma seeeduino_xiao_ble
 
 ```
+
+In Docker:
+docker run --volume /Users/ally/src/allymparker/zmk-config-unified:/keymap --workdir=/keymap -t zmkfirmware/zmk-build-arm:3.5-branch /bin/bash
