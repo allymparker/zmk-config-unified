@@ -14,6 +14,7 @@
 #define JB_NT kp LS(LG(B))       // Navigate -> Type
 #define JB_NB kp LG(LBKT)        // Navigate -> Back
 #define JB_NF kp LG(RBKT)        // Navigate -> Forward
+#define JB_NM kp LG(F12)         // Navigate -> Members
 
 #define JB_BB kp LG(F9)          // Build -> Build Project
 #define JB_DI kp F7              // Debug -> Step Into

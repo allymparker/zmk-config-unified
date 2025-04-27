@@ -205,7 +205,7 @@ _XX_,    _XX_,    _XX_,    &JB_RC,  &JB_RV,  _XX_,    /**/    &JB_RN,  &JB_RM,  
 _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    &JB_NT,  /**/    _XX_,  &JB_NU,  _XX_,    _XX_,    _XX_,    _XX_,
 _XX_,    _XX_,    _XX_,    &JB_ND,  _XX_,    _XX_,    /**/    _XX_,   _XX_,   _XX_,    _XX_,    _XX_,    _XX_,
 _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,   _XX_,   _XX_,    _XX_,    _XX_,    _XX_,
-                           _XX_,    _XX_,    &to BASE , /**/    _XX_,   _XX_,   _XX_
+                           _XX_,    _XX_,    &to BASE , /**/    _XX_,  &JB_NM,   _XX_
                         )>;
                 };
 
