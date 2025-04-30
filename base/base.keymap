@@ -82,15 +82,15 @@
                 nav_layer {
                         display-name="Nav";
 // -----------------------------------------------------------------------------------------
-// |      | F16 | F17 | F18 | F19 | F20 |   |SwApp| Pwd  | Nwd | PGUP|     |      |
+// |flash | F16 | F17 | F18 | F19 | F20 |   |SwApp| Pwd  | Nwd | PGUP|     |      |
 // |      |UNDO | CUT | COPY|PASTE|CAPS |   |  <  |  v   |  ^  |  >  |     |      |
 // |      |     |     |     |     |     |   |SwWin| Home | End | PgDN|     |      |
 //                    |     |     |     |   |     | Spot |     |
                         bindings = <LAYER_FROM42(   \
-&CNXT,    &kp F16, &kp F17, &TD_Maximise, &TD_Right, ____,/**/    &SW_APP,       &MC_PWD,     &MC_NWD,  &kp PG_UP,  ____,  ____,
-&STOP,    &MC_UND, &MC_CUT, &MC_CPY, &MC_PST, &TD_Caps,   /**/    &kp LEFT,      &kp DOWN,    &kp UP,   &kp RIGHT,  ____,  ____,
-&CPRV,    ____,    ____,    ____,    ____,    ____,       /**/    &SW_WIN,       &MC_HME,     &MC_END,  &kp PG_DN,  ____,  ____,
-                            ____,    ____,    ____,       /**/    &kp LA(BSPC),  &kp LG(SPC), ____
+&FLASH,   &kp F16, &kp F17, &TD_Maximise, &TD_Right, ____,    /**/    &SW_APP,       &MC_PWD,     &MC_NWD,  &kp PG_UP,  ____,  ____,
+____,    &MC_UND, &MC_CUT, &MC_CPY,      &MC_PST,   &TD_Caps, /**/    &kp LEFT,      &kp DOWN,    &kp UP,   &kp RIGHT,  ____,  ____,
+____,    ____,      ____,    ____,       ____,      ____,     /**/    &SW_WIN,       &MC_HME,     &MC_END,  &kp PG_DN,  ____,  ____,
+                             ____,       ____,      ____,     /**/    &kp LA(BSPC),  &kp LG(SPC), ____
                         )>;
 
                         #ifdef corneroll
@@ -128,12 +128,12 @@ ____,    &kp LCTRL, &kp LALT,  &kp LGUI,  &kp LSHFT,  ____,     /**/    &kp PLUS
                 fun_layer {
                         display-name="Func";
 // -----------------------------------------------------------------------------------------
-// |      |     | F9  | F10 | F11 | F12 |   |     |      |     |     |     |      |
+// |      |     | F9  | F10 | F11 | F12 |   |     |      |     |     |     | FLASH|
 // |      |     | F5  |  F6 |  F7 |  F8 |   |     |      |     |     |     |      |
 // |      |     | F1  |  F2 |  F3 |  F4 |   |     |      |     |     |     |      |
 //                    |     |     |     |   |     |      |     |
                         bindings = <LAYER_FROM42(   \
-____,   &kp F9,  &kp F10, &kp F11, &kp F12, ____,   /**/   ____,    ____,      ____,      ____,     ____,     ____,
+____,   &kp F9,  &kp F10, &kp F11, &kp F12, ____,   /**/   ____,    ____,      ____,      ____,     ____,     &FLASH,
 ____,   &kp F5,  &kp F6,  &kp F7,  &kp F8,  ____,   /**/   ____,    &kp LSHFT, &kp LCTRL, &kp LALT, &kp LGUI, ____,
 ____,   &kp F1,  &kp F2,  &kp F3,  &kp F4,  ____,   /**/   ____,    ____,      ____,      ____,     ____,     ____,
                           ____,    ____,    ____,   /**/   ____,    ____,      ____
@@ -303,9 +303,9 @@ _XX_,    _XX_,    _XX_,    _XX_,    &kp LG(LBKT),    _XX_,    /**/    _XX_,     
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         flavor = "balanced";
-        tapping-term-ms = <200>;
+        tapping-term-ms = <280>;
         quick-tap-ms = <175>;                // repeat on tap-into-hold
-        require-prior-idle-ms = <120>;
+        require-prior-idle-ms = <150>;
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_R THUMBS>;
         hold-trigger-on-release;             // delay positional check until key-release
@@ -315,9 +315,9 @@ _XX_,    _XX_,    _XX_,    _XX_,    &kp LG(LBKT),    _XX_,    /**/    _XX_,     
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         flavor = "balanced";
-        tapping-term-ms = <200>;
+        tapping-term-ms = <280>;
         quick-tap-ms = <175>;                // repeat on tap-into-hold
-        require-prior-idle-ms = <120>;
+        require-prior-idle-ms = <150>;
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_L THUMBS>;
         hold-trigger-on-release;             // delay positional check until key-release
