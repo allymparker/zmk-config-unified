@@ -32,35 +32,35 @@
 
         combo_volup {
             timeout-ms = <50>;
-            key-positions = <LT3 LT4>;
+            key-positions = <LT1 LT0>;
             bindings = <&CVUP>;
             layers=<BASE>;
         };
 
         combo_pp {
             timeout-ms = <50>;
-            key-positions = <LT2 LT3>;
+            key-positions = <LM1 LM0>;
             bindings = <&CPP>;
             layers=<BASE>;
         };
 
         combo_voldown {
             timeout-ms = <50>;
-            key-positions = <LB3 LB4>;
+            key-positions = <LB1 LB0>;
             bindings = <&CVDN>;
             layers=<BASE>;
         };
 
         combo_next {
             timeout-ms = <50>;
-            key-positions = <LT3 LT4>;
+            key-positions = <LM1 LM0>;
             bindings = <&CNXT>;
             layers=<NAV>;
         };
         
         combo_prev {
             timeout-ms = <50>;
-            key-positions = <LB3 LB4>;
+            key-positions = <LB1 LB0>;
             bindings = <&CPRV>;
             layers=<NAV>;
         };
