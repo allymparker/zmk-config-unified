@@ -17,4 +17,4 @@ docker compose run zmk-build
 ```
 
 In Docker:
-docker run --volume /Users/ally/src/allymparker/zmk-config-unified:/keymap --workdir=/keymap -t zmkfirmware/zmk-build-arm:3.5-branch /bin/bash
+docker run --rm --volume /Users/ally/src/allymparker/zmk-config-unified:/keymap --workdir=/keymap -t zmkfirmware/zmk-build-arm:3.5-branch /bin/bash
