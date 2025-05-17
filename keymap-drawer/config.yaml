@@ -1,6 +1,6 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
-  skip_binding_parsing: true
+#   skip_binding_parsing: true
   trans_legend: ""
   raw_binding_map:
     '&sys_reset': Reset
