@@ -1,42 +1,521 @@
 layout: {zmk_keyboard: base}
 layers:
-  Base: ['&kp C_VOL_UP', '&kp Q', '&kp W', '&kp E', '&kp R', '&kp T', '&kp Y', '&kp U', '&kp I', '&kp O', '&kp P', $$zoom-in$$, '&kp C_PP', '&hm_l LCTRL A', '&hm_l
-      LALT S', '&hm_l LGUI D', '&hm_l LSHIFT F', '&kp G', '&kp H', '&hm_r LSHIFT J', '&hm_r LGUI K', '&hm_r LALT L', '&hm_r LCTRL SEMI', $$screenshot$$, '&kp C_VOL_DN',
-    '&kp Z', '&kp X', '&kp C', '&lt 10 V', '&kp B', '&kp N', '&lt 11 M', '&kp COMMA', '&kp DOT', '&kp FSLH', $$zoom-out$$, '&lt 5 TAB', '&lt 3 RET', '&lt 2 ESC',
-    '&lt 4 BSPC', '&lt 1 SPC', '&kp DEL']
-  Symbol: ['&kp C_NEXT', '&kp CARET', '&kp AMPS', '&kp HASH', '&kp TILDE', '&kp LPAR', '&kp RPAR', '&trans', '&trans', '&trans', '&trans', '&trans', '&kp C_STOP',
-    '&kp GRAVE', '&kp PIPE', '&kp EXCL', '&kp SQT', '&kp LBRC', '&kp RBRC', '&trans', '&trans', '&trans', '&trans', '&trans', '&kp C_PREV', '&kp BSLH', '&kp AT',
-    '&kp DLLR', '#', '&kp LBKT', '&kp RBKT', '&trans', '&trans', '&trans', '&trans', '&trans', '&kp UNDER', '&kp MINUS', '&kp DQT', '&trans', '&trans', '&trans']
-  Nav: [Boot, '&kp F16', '&kp F17', '&TD_Maximise', '&TD_Right', '&trans', App Next, Word Left, Word Right, '&kp PG_UP', '&trans', '&trans', '&trans', $$undo$$, $$cut$$,
-    '&hm_l LGUI LG(C)', '&hm_l LSHIFT LG(V)', Caps Wrd, '&kp LEFT', '&kp DOWN', '&kp UP', '&kp RIGHT', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans',
-    '&trans', '&trans', Win Next, Home, End, '&kp PG_DN', '&trans', '&trans', '&trans', '&trans', '&trans', Delete Word, $$search$$, '&trans']
-  Num: ['&kp C_NEXT', '&trans', '&trans', '&trans', '&trans', '&trans', '&kp STAR', '&kp N7', '&kp N8', '&kp N9', '&trans', '&trans', '&trans', '&kp LCTRL', '&kp
-      LALT', '&kp LGUI', '&kp LSHFT', '&trans', '&kp PLUS', '&kp N4', '&kp N5', '&kp N6', '&kp FSLH', '&trans', '&kp C_PREV', '&trans', '&trans', '&trans', '&trans',
-    '&trans', '&kp MINUS', '&kp N1', '&kp N2', '&kp N3', '&kp PRCNT', '&trans', '&trans', '&trans', '&trans', '&kp EQUAL', '&kp N0', '&kp DOT']
-  Func: ['&trans', '&kp F9', '&kp F10', '&kp F11', '&kp F12', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', Boot, '&trans', '&kp F5', '&kp F6', Step
-      Into, Step Over, '&trans', '&trans', '&kp LSHFT', '&kp LCTRL', '&kp LALT', '&kp LGUI', '&trans', '&trans', '&kp F1', '&kp F2', '&kp F3', '&kp F4', '&trans',
-    '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans']
-  Media: [Boot, '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans',
-    '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&bt BT_CLR', BT 1, BT 2, BT 3, '&trans', '&trans', '&trans', '&trans', '&trans',
-    '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans']
-  Jetbrains: ['&trans', '&trans', '&trans', '&trans', '&sl 7', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans',
-    '&to 9', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&sl 8',
-    '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&trans', '&to 0', '&trans', '&trans', '&trans']
-  Refactor: ['&none', '&none', '&none', '&none', Rename, This, '&none', '&none', Inline, '&none', Extract Parameter, '&none', '&none', '&none', Change Signature,
-    Safe Delete, Extract Field, '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', Extract Constant, Extract Variable, '&none',
-    Inline, Extract Method, '&none', '&none', '&none', '&none', '&none', '&none', '&to 0', '&none', '&none', '&none']
-  Code Nav: ['&none', '&none', '&none', '&none', '&none', Type, '&none', Find Usages, '&none', '&none', '&none', '&none', '&none', '&none', '&none', Declaration,
-    '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none',
-    '&none', '&none', '&none', '&none', '&to 0', '&none', '&kp LG(F12)', '&none']
-  Debug: ['&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none',
-    '&none', Resume, Step Into, Step Out, Step Over, '&none', '&none', '&none', '&none', '&none', '&none', '&none', Breakpoint, '&none', '&none', '&none', '&none',
-    '&none', '&none', '&none', '&none', '&to 0', Build Project, '&none', '&none']
-  Fwd: ['&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none',
-    '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', Forward, '&none', '&none', '&none', '&none',
-    '&none', '&none', '&none', '&none', '&none', '&none']
-  Bck: ['&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none',
-    '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', '&none', Back, '&none', '&none', '&none', '&none', '&none', '&none', '&none',
-    '&none', '&none', '&none', '&none', '&none', '&none']
+  Base:
+  - $$vol-up$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$zoom-in$$
+  - $$play-pause$$
+  - {t: A, h: $$apple-keyboard-control$$}
+  - {t: S, h: $$apple-keyboard-option$$}
+  - {t: D, h: $$apple-keyboard-command$$}
+  - {t: F, h: $$apple-keyboard-shift$$}
+  - G
+  - H
+  - {t: J, h: $$apple-keyboard-shift$$}
+  - {t: K, h: $$apple-keyboard-command$$}
+  - {t: L, h: $$apple-keyboard-option$$}
+  - {t: ;, h: $$apple-keyboard-control$$}
+  - $$screenshot$$
+  - $$vol-down$$
+  - Z
+  - X
+  - C
+  - {t: V, h: Fwd}
+  - B
+  - N
+  - {t: M, h: Bck}
+  - ','
+  - .
+  - /
+  - $$zoom-out$$
+  - {t: ↹, h: Media}
+  - {t: ⏎, h: Num}
+  - {t: esc, h: Nav}
+  - {t: ⌫, h: Func}
+  - {t: ␣, h: Symbol}
+  - ⌦
+  Symbol:
+  - $$play-next$$
+  - ^
+  - '&'
+  - £
+  - '~'
+  - (
+  - )
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$stop$$
+  - '`'
+  - '|'
+  - '!'
+  - ''''
+  - '{'
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$play-prev$$
+  - \
+  - '@'
+  - $
+  - '#'
+  - '['
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - _
+  - '-'
+  - '"'
+  - ''
+  - {type: held}
+  - ''
+  Nav:
+  - Boot
+  - F16
+  - F17
+  - '&TD_Maximise'
+  - '&TD_Right'
+  - ''
+  - App Next
+  - Word Left
+  - Word Right
+  - Page Up
+  - ''
+  - ''
+  - ''
+  - $$undo$$
+  - $$cut$$
+  - {t: $$copy$$, h: $$apple-keyboard-command$$}
+  - {t: $$paste$$, h: $$apple-keyboard-shift$$}
+  - Caps Wrd
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Win Next
+  - Home
+  - End
+  - Page Down
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Delete Word
+  - $$search$$
+  - ''
+  Num:
+  - $$play-next$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - $$apple-keyboard-control$$
+  - $$apple-keyboard-option$$
+  - $$apple-keyboard-command$$
+  - $$apple-keyboard-shift$$
+  - ''
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - /
+  - ''
+  - $$play-prev$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - '%'
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - '='
+  - '0'
+  - .
+  Func:
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - ''
+  - F5
+  - F6
+  - Step Into
+  - Step Over
+  - ''
+  - ''
+  - $$apple-keyboard-shift$$
+  - $$apple-keyboard-control$$
+  - $$apple-keyboard-option$$
+  - $$apple-keyboard-command$$
+  - ''
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  Media:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Jetbrains:
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Refactor, h: sticky}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Debug, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - {t: Code Nav, h: sticky}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  Refactor:
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Rename, type: held}
+  - This
+  - ''
+  - ''
+  - Inline
+  - ''
+  - Extract Parameter
+  - ''
+  - ''
+  - ''
+  - Change Signature
+  - Safe Delete
+  - Extract Field
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Extract Constant
+  - Extract Variable
+  - ''
+  - Inline
+  - Extract Method
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  Code Nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Type
+  - ''
+  - Find Usages
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Declaration
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - Gui+F12
+  - ''
+  Debug:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Resume
+  - Step Into
+  - Step Out
+  - Step Over
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Breakpoint
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - Build Project
+  - ''
+  - ''
+  Fwd:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - Forward
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Bck:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Back
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [33, 34]
   k: ../
@@ -51,21 +530,21 @@ combos:
   k: $$zoom-out$$
   l: [Base]
 - p: [4, 5]
-  k: '&kp C_VOL_UP'
+  k: $$vol-up$$
   l: [Base]
 - p: [16, 17]
-  k: '&kp C_PP'
+  k: $$play-pause$$
   l: [Base]
 - p: [28, 29]
-  k: '&kp C_VOL_DN'
+  k: $$vol-down$$
   l: [Base]
 - p: [16, 17]
-  k: '&kp C_NEXT'
+  k: $$play-next$$
   l: [Nav]
 - p: [28, 29]
-  k: '&kp C_PREV'
+  k: $$play-prev$$
   l: [Nav]
 - p: [28, 31]
-  k: '&sl 6'
+  k: {t: Jetbrains, h: sticky}
   l: [Base]
   a: bottom
