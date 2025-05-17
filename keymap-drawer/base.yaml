@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: base}
 layers:
   Base:
-  - $$vol-up$$
+  - VOL UP
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - $$zoom-in$$
-  - $$play-pause$$
-  - {t: A, h: $$apple-keyboard-control$$}
-  - {t: S, h: $$apple-keyboard-option$$}
-  - {t: D, h: $$apple-keyboard-command$$}
-  - {t: F, h: $$apple-keyboard-shift$$}
+  - Gui++
+  - PP
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHIFT}
   - G
   - H
-  - {t: J, h: $$apple-keyboard-shift$$}
-  - {t: K, h: $$apple-keyboard-command$$}
-  - {t: L, h: $$apple-keyboard-option$$}
-  - {t: ;, h: $$apple-keyboard-control$$}
-  - $$screenshot$$
-  - $$vol-down$$
+  - {t: J, h: LSHIFT}
+  - {t: K, h: LGUI}
+  - {t: L, h: LALT}
+  - {t: ;, h: LCTRL}
+  - Sft+Gui+Ctl+4
+  - VOL DN
   - Z
   - X
   - C
@@ -36,292 +36,289 @@ layers:
   - ','
   - .
   - /
-  - $$zoom-out$$
-  - {t: ↹, h: Media}
-  - {t: ⏎, h: Num}
-  - {t: esc, h: Nav}
-  - {t: ⌫, h: Func}
-  - {t: ␣, h: Symbol}
-  - ⌦
+  - Gui+-
+  - {t: TAB, h: Media}
+  - {t: RET, h: Num}
+  - {t: ESC, h: Nav}
+  - {t: BSPC, h: Func}
+  - {t: SPC, h: Symbol}
+  - DEL
   Symbol:
-  - $$play-next$$
+  - NEXT
   - ^
   - '&'
-  - £
+  - '#'
   - '~'
   - (
   - )
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$stop$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - STOP
   - '`'
   - '|'
   - '!'
   - ''''
   - '{'
   - '}'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$play-prev$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PREV
   - \
   - '@'
   - $
-  - '#'
+  - Alt+3
   - '['
   - ']'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - _
   - '-'
   - '"'
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   Nav:
-  - Boot
+  - '&bootloader'
   - F16
   - F17
   - '&TD_Maximise'
   - '&TD_Right'
-  - ''
-  - App Next
-  - Word Left
-  - Word Right
-  - Page Up
-  - ''
-  - ''
-  - ''
-  - $$undo$$
-  - $$cut$$
-  - {t: $$copy$$, h: $$apple-keyboard-command$$}
-  - {t: $$paste$$, h: $$apple-keyboard-shift$$}
-  - Caps Wrd
-  - ←
-  - ↓
-  - ↑
-  - →
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Win Next
-  - Home
-  - End
-  - Page Down
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - '&SW_APP'
+  - Alt+LEFT
+  - Alt+RIGHT
+  - PG UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+X
+  - {t: Gui+C, h: LGUI}
+  - {t: Gui+V, h: LSHIFT}
+  - '&TD_Caps'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&SW_WIN'
+  - Gui+LEFT
+  - Gui+RIGHT
+  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - Delete Word
-  - $$search$$
-  - ''
+  - Alt+BSPC
+  - Gui+SPC
+  - {t: ▽, type: trans}
   Num:
-  - $$play-next$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - NEXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '*'
   - '7'
   - '8'
   - '9'
-  - ''
-  - ''
-  - ''
-  - $$apple-keyboard-control$$
-  - $$apple-keyboard-option$$
-  - $$apple-keyboard-command$$
-  - $$apple-keyboard-shift$$
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
   - +
   - '4'
   - '5'
   - '6'
   - /
-  - ''
-  - $$play-prev$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - PREV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - '1'
   - '2'
   - '3'
   - '%'
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - '='
   - '0'
   - .
   Func:
-  - ''
+  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
   - F12
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: ▽, type: trans}
   - F5
   - F6
-  - Step Into
-  - Step Over
-  - ''
-  - ''
-  - $$apple-keyboard-shift$$
-  - $$apple-keyboard-control$$
-  - $$apple-keyboard-option$$
-  - $$apple-keyboard-command$$
-  - ''
-  - ''
+  - F7
+  - F8
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Media:
-  - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Jetbrains:
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Refactor, h: sticky}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Debug, h: toggle}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {t: Code Nav, h: sticky}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Base, h: toggle}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Refactor:
   - ''
   - ''
   - ''
   - ''
-  - {t: Rename, type: held}
-  - This
+  - {t: Sft+F6, type: held}
+  - Ctl+T
   - ''
   - ''
-  - Inline
+  - Alt+Gui+N
   - ''
-  - Extract Parameter
-  - ''
-  - ''
-  - ''
-  - Change Signature
-  - Safe Delete
-  - Extract Field
+  - Alt+Gui+P
   - ''
   - ''
   - ''
+  - Gui+F6
+  - Gui+DEL
+  - Alt+Gui+F
   - ''
   - ''
   - ''
@@ -329,11 +326,14 @@ layers:
   - ''
   - ''
   - ''
-  - Extract Constant
-  - Extract Variable
   - ''
-  - Inline
-  - Extract Method
+  - ''
+  - ''
+  - Alt+Gui+C
+  - Alt+Gui+V
+  - ''
+  - Alt+Gui+N
+  - Alt+Gui+M
   - ''
   - ''
   - ''
@@ -350,17 +350,17 @@ layers:
   - ''
   - ''
   - ''
-  - Type
+  - Sft+Gui+B
   - ''
-  - Find Usages
-  - ''
-  - ''
+  - Alt+F7
   - ''
   - ''
   - ''
   - ''
   - ''
-  - Declaration
+  - ''
+  - ''
+  - Gui+B
   - ''
   - ''
   - ''
@@ -406,10 +406,10 @@ layers:
   - ''
   - ''
   - ''
-  - Resume
-  - Step Into
-  - Step Out
-  - Step Over
+  - Alt+Gui+R
+  - F7
+  - Sft+F8
+  - F8
   - ''
   - ''
   - ''
@@ -417,7 +417,7 @@ layers:
   - ''
   - ''
   - ''
-  - Breakpoint
+  - Gui+F8
   - ''
   - ''
   - ''
@@ -427,7 +427,7 @@ layers:
   - ''
   - ''
   - {t: Base, h: toggle}
-  - Build Project
+  - Gui+F9
   - ''
   - ''
   Fwd:
@@ -462,7 +462,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - Forward
+  - Gui+]
   - ''
   - ''
   - ''
@@ -502,7 +502,7 @@ layers:
   - ''
   - ''
   - ''
-  - Back
+  - Gui+[
   - ''
   - ''
   - {type: held}
@@ -518,33 +518,32 @@ layers:
   - ''
 combos:
 - p: [33, 34]
-  k: ../
+  k: '&UPDIR'
   l: [Base]
 - p: [9, 10]
-  k: $$zoom-in$$
+  k: Gui++
   l: [Base]
 - p: [21, 22]
-  k: $$screenshot$$
+  k: Sft+Gui+Ctl+4
   l: [Base]
 - p: [8, 9]
-  k: $$zoom-out$$
+  k: Gui+-
   l: [Base]
 - p: [4, 5]
-  k: $$vol-up$$
+  k: VOL UP
   l: [Base]
 - p: [16, 17]
-  k: $$play-pause$$
+  k: PP
   l: [Base]
 - p: [28, 29]
-  k: $$vol-down$$
+  k: VOL DN
   l: [Base]
 - p: [16, 17]
-  k: $$play-next$$
+  k: NEXT
   l: [Nav]
 - p: [28, 29]
-  k: $$play-prev$$
+  k: PREV
   l: [Nav]
 - p: [28, 31]
   k: {t: Jetbrains, h: sticky}
   l: [Base]
-  a: bottom
