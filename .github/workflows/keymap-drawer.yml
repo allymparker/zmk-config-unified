@@ -18,6 +18,6 @@ jobs:
     with:
       keymap_patterns: "base/*.keymap"
       west_config_path: "config_charma"
-      config_path: "keymap-drawer/config.yaml"
+      # config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
       draw_args: "base:'-k corne_rotated -l LAYOUT_split_3x6_3'"
