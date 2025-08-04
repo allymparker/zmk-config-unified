@@ -89,7 +89,7 @@
                         bindings = <LAYER_FROM42(   \
 &FLASH,   &kp F16, &kp F17, &TD_Maximise, &TD_Right, ____,    /**/    &SW_APP,       &MC_PWD,     &MC_NWD,  &kp PG_UP,  ____,  ____,
 ____,    &MC_UND, &MC_CUT, &MC_CPY,      &MC_PST,   &TD_Caps, /**/    &kp LEFT,      &kp DOWN,    &kp UP,   &kp RIGHT,  ____,  ____,
-____,    ____,      ____,    ____,       ____,      ____,     /**/    &SW_WIN,       &MC_HME,     &MC_END,  &kp PG_DN,  ____,  ____,
+____,    ____,      ____,    ____,       ____,      ____,     /**/    &SW_TAB,       &MC_HME,     &MC_END,  &kp PG_DN,  ____,  ____,
                              ____,       ____,      ____,     /**/    &kp LA(BSPC),  &kp LG(SPC), ____
                         )>;
 
@@ -297,6 +297,12 @@ _XX_,    _XX_,    _XX_,    _XX_,    &kp LG(LBKT),    _XX_,    /**/    _XX_,     
       compatible = "zmk,behavior-tri-state";
       #binding-cells = <0>;
       bindings = <&kt LGUI>, <&kp GRAVE>, <&kt LGUI>;
+    };
+
+    SW_TAB: switch_tab {
+      compatible = "zmk,behavior-tri-state";
+      #binding-cells = <0>;
+      bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
     };
 
     hm_l: hm_l {
