@@ -14,6 +14,13 @@ BOARD_NAME="seeeduino_xiao_ble"
 ADDITIONAL_SHIELDS="rgbled_adapter"
 fi
 
+if [ "$1" == "corne" ]; then
+  echo "Building for Corne keyboard"
+KEYBOARD_NAME="corne"
+BOARD_NAME="nice_nano_v2"
+ADDITIONAL_SHIELDS=""
+fi
+
 rm -rf .west
 
 west init -l config_$KEYBOARD_NAME && west update
