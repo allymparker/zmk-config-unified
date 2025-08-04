@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&SW_WIN'
+  - '&SW_TAB'
   - Gui+LEFT
   - Gui+RIGHT
   - PG DN
