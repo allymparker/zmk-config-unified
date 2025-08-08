@@ -1,0 +1,18 @@
+manifest:
+  version: "0.13"
+
+  defaults:
+    remote: zmkfirmware
+
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+
+  self:
+    path: config_charma

@@ -1,0 +1,21 @@
+# This file generates the GitHub Actions matrix for Charma with dongle
+# The dongle acts as central, and both halves become peripherals
+---
+include:
+  # Dongle (central) - nice!nano v2
+  - board: nice_nano_v2
+    shield: charma_dongle
+  # Left peripheral - Seeed Xiao BLE
+  - board: seeeduino_xiao_ble
+    shield: charma_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  # Right peripheral - Seeed Xiao BLE  
+  - board: seeeduino_xiao_ble
+    shield: charma_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  # Settings reset for dongle
+  - board: nice_nano_v2
+    shield: settings_reset
+  # Settings reset for peripherals
+  - board: seeeduino_xiao_ble
+    shield: settings_reset

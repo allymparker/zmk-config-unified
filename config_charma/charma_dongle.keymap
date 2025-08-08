@@ -1,0 +1,5 @@
+#include "../base/keypos_36keys.h"
+#include "../base/layer_names.h"
+#include "../base/kp_mac.h"
+#include "../base/kp_media.h"
+#include "../base/base.keymap"
