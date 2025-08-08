@@ -17,3 +17,28 @@ config ZMK_SPLIT
     default y
 
 endif
+
+if SHIELD_CHARMA_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "Charma"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT
+    default y
+
+# For split keyboard with left and right halves
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+# Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
+config BT_MAX_CONN
+    default 7
+
+# Set this to the same number as BT_MAX_CONN
+config BT_MAX_PAIRED
+    default 7
+
+endif

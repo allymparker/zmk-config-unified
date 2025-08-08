@@ -4,5 +4,11 @@
 config SHIELD_CHARMA_LEFT
     def_bool $(shields_list_contains,charma_left)
 
+config SHIELD_CHARMA_LEFT_PERIPHERAL
+    def_bool $(shields_list_contains,charma_left_peripheral)
+
 config SHIELD_CHARMA_RIGHT
     def_bool $(shields_list_contains,charma_right)
+
+config SHIELD_CHARMA_DONGLE
+    def_bool $(shields_list_contains,charma_dongle)
