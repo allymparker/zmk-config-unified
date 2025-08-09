@@ -3,9 +3,11 @@ id: charma
 name: Charma
 type: shield
 url: https://github.com/allymparker/charma
-requires: [seeeduino_xiao_ble]
+requires: [seeeduino_xiao_ble, pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
+  - display
 siblings:
   - charma_left
   - charma_right

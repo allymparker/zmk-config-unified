@@ -6,7 +6,7 @@ set -e
 echo "Building for Charma keyboard with dongle"
 KEYBOARD_NAME="charma"
 BOARD_NAME="seeeduino_xiao_ble"
-DONGLE_BOARD="nice_nano_v2"
+DONGLE_BOARD="nice_nano"
 ADDITIONAL_SHIELDS="rgbled_adapter"
 
 rm -rf .west
