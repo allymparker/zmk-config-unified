@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: allymparker
       url-base: https://github.com/allymparker
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,7 +17,7 @@ manifest:
       remote: allymparker
       revision: main
     - name: zmk-dongle-display
-      remote: englmaxi
+      remote: allymparker
       revision: main
   self:
     path: config

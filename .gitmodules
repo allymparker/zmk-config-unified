@@ -5,3 +5,7 @@
 [submodule "zmk-rgbled-widget"]
 	path = zmk-rgbled-widget
 	url = https://github.com/allymparker/zmk-rgbled-widget.git
+
+[submodule "zmk-dongle-display"]
+	path = zmk-dongle-display
+	url = https://github.com/allymparker/zmk-dongle-display.git
