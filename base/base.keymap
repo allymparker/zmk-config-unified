@@ -224,7 +224,7 @@ _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    &JB_DB,  /**/    _XX_,     _XX_,   
                 fwd_layer {
                         display-name="Fwd";
                         bindings = <LAYER_FROM42(   \
-_XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
+_XX_, &bootloader,_XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         &JB_NU,         _XX_,    _XX_,    _XX_,    _XX_,
 _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
 _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         &kp LG(RBKT),   _XX_,    _XX_,    _XX_,    _XX_,
                            _XX_,    _XX_,    _XX_,    /**/    _XX_,         _XX_,           _XX_
@@ -235,7 +235,7 @@ _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    _XX_,    /**/    _XX_,         &kp 
                 bck_layer {
                         display-name="Bck";
                         bindings = <LAYER_FROM42(   \
-_XX_,    _XX_,    _XX_,    _XX_,    _XX_,            _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
+_XX_,    _XX_,    _XX_,    _XX_,    &JB_RR,          _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    &bootloader, _XX_,
 _XX_,    _XX_,    _XX_,    _XX_,    _XX_,            _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
 _XX_,    _XX_,    _XX_,    _XX_,    &kp LG(LBKT),    _XX_,    /**/    _XX_,         _XX_,           _XX_,    _XX_,    _XX_,    _XX_,
                            _XX_,    _XX_,            _XX_,    /**/    _XX_,         _XX_,           _XX_
@@ -337,4 +337,3 @@ _XX_,    _XX_,    _XX_,    _XX_,    &kp LG(LBKT),    _XX_,    /**/    _XX_,     
 
   };
 };
-
